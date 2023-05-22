@@ -21,6 +21,7 @@ $ conda activate hcNETLAS
 Install the modified version of ACTIONet from scHumanNet package.
 ```bash
 (hcNETLAS) $ R CMD INSTALL ./scHumanNet/packages/ACTIONet_2.0.18_HNv3
+(hcNETLAS) $ cd ./hcNETLAS
 ```
 
 Start R and install SCINET and scHumanNet.
