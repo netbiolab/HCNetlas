@@ -1,0 +1,13 @@
+Package: hcNETLAS
+Type: Package
+Title: Human cell-type-specific network atlas (hcNETLAS) 
+Version: 0.1.0
+Author: Jiwon Yu
+Maintainer: Jiwon Yu <jiwonyu@yonsei.ac.kr>
+Description: Human cell-type-specific network atlas (hcNETLAS) 
+    Provides cell-type-specific networks (CGNs) across human tissue based on single-cell RNA-sequencing data.
+    Suggests three network-based disease analysis pipelines with single-cell RNA-sequencing data
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
