@@ -257,15 +257,6 @@ diffPR.df.top
 
 
 ## 2. Gene set connectivity analysis
-
-Load required libraries.
-```r
-library(ggplot2) ##########
-library(patchwork) ##########
-library(ggpubr)##########
-library(rstatix)##########
-```
-
 Next, we propose geneset connectivity analysis, which count for connected disease-related genes in networks. As a disease geneset, SLE-associated genes from KEGG pathway are uploaded in `data` folder with `kegg_hsa05322.tsv` file. The function `GenesetConnectivity()` takes merged network list containing both hcNETLAS CGNs and disease CGNs, two characters indicating control and disease, and disease geneset. The function returns a dataframe with counts of connections among disease genes in each networks.
 
 ```r
@@ -308,17 +299,16 @@ sel_top.df
 | UQCR10         | ABCB11           | …   | CDK1      |
 
 
-Function `FindNeibors()` gives direct neighboring nodes connected to top hub genes. Input requires output of `TopHub()` and output gives a list of direct neighboring nodes and top hub genes in each network.
+Function `GetNeibors()` gives direct neighboring nodes connected to top hub genes. Input requires output of `TopHub()` and output gives a list of direct neighboring nodes and top hub genes in each network.
 
 ```r
-direct.neighbors <- FindNeighbors(top.df=sel_top.df, net.list =merged.net.list)
+direct.neighbors <- GetNeighbors(top.df=sel_top.df, net.list =merged.net.list)
 ```
 
 In this tutorial, we will adapt `enrichR` package to perform enrichment analysis with GOBP and KEGG pathway gene sets. Function `GSAplot()` 
 
 ```r
 library('enrichR')
-library(ggplot2)
 
 # For Top 10 hubness genes
 for (i in 1:ncol(sel_top.df)){
