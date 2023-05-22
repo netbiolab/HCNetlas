@@ -174,7 +174,7 @@ Check each element of list and save scHumanNets, with both SCINET and LLS weight
 ``` r
 lapply(sorted.net.list, head)
 
-setwd('/output/')
+setwd('/users/output/')
 saveRDS(sorted.net.list, './sorted_el_list.rds')
 ```
 
