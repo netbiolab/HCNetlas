@@ -44,7 +44,6 @@ FindNeighbors <- function(top.df = NULL,
 #'
 #' @return Plot with top n pathways enriched in a given gene set.
 #'
-#' @import enrichr
 #' @import ggplot2
 #'
 #' @export
