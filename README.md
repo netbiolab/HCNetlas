@@ -191,8 +191,8 @@ In this tutorial we will follow the analysis pipeline of `scHumanNet` package wh
 strength.list <- GetCentrality(method='degree', net.list = merged.net.list)
 rank.df.final <- CombinePercRank(strength.list)
 
-saveRDS(strength.list,'/output/strength_list.rds')
-write.table(rank.df.final,'/output/rank_df_final.tsv',sep="\t",quote=FALSE)
+# saveRDS(strength.list,'/output/strength_list.rds')
+# write.table(rank.df.final,'/output/rank_df_final.tsv',sep="\t",quote=FALSE)
 ```
 
 
