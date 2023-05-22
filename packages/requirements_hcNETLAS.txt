@@ -6,7 +6,7 @@ bioconductor-complexheatmap
 bioconductor-scater
 bioconductor-scran
 bioconductor-singlecellexperiment
-r-dplyr
+r-devtools
 r-ggpubr
 r-gplots
 r-hdf5r
