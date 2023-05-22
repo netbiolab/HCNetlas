@@ -23,7 +23,7 @@ install the modified version of ACTIONet from scHumanNet package
 (hcNETLAS) $ R CMD INSTALL ./scHumanNet/packages/ACTIONet_2.0.18_HNv3
 ```
 
-start R and install SCINET and scHumanNet
+Start R and install SCINET and scHumanNet.
 ```r
 devtools::install_github("shmohammadi86/SCINET")
 devtools::install_github("netbiolab/scHumanNet")
