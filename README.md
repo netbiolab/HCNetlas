@@ -15,7 +15,7 @@ $ conda create -n hcNETLAS R=4
 $ git clone https://github.com/netbiolab/hcNETLAS.git
 $ git clone https://github.com/netbiolab/scHumanNet.git
 $ conda activate hcNETLAS
-(hcNETLAS) $ conda install --file ./hcNETLAS/packages/requirements_hcNETLAS.txt
+(hcNETLAS) $ conda install --file ./hcNETLAS/requirements_hcNETLAS.txt
 ```
 
 Install the modified version of ACTIONet from scHumanNet package.
