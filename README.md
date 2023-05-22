@@ -307,7 +307,7 @@ direct.neighbors <- GetNeighbors(top.df=sel_top.df, net.list =merged.net.list)
 In this tutorial, we will adapt `enrichR` package to perform enrichment analysis with GOBP and KEGG pathway gene sets. Function `GSAplot()` 
 
 ```r
-library('enrichR')
+library(enrichR)
 
 # For Top 10 hubness genes
 for (i in 1:ncol(sel_top.df)){
