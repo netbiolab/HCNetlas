@@ -174,8 +174,7 @@ Check each element of list and save scHumanNets, with both SCINET and LLS weight
 ``` r
 lapply(sorted.net.list, head)
 
-setwd('/users/output/')
-saveRDS(sorted.net.list, './sorted_el_list.rds')
+saveRDS(sorted.net.list, '/users/output/sorted_el_list.rds')
 ```
 
 ### Generate merged network list to compare disease CGNs with hcNETLAS CGNs.
@@ -191,8 +190,8 @@ In this tutorial we will follow the analysis pipeline of `scHumanNet` package wh
 strength.list <- GetCentrality(method='degree', net.list = merged.net.list)
 rank.df.final <- CombinePercRank(strength.list)
 
-# saveRDS(strength.list,'/output/strength_list.rds')
-# write.table(rank.df.final,'/output/rank_df_final.tsv',sep="\t",quote=FALSE)
+# saveRDS(strength.list,'/users/output/strength_list.rds')
+# write.table(rank.df.final,'/users/output//rank_df_final.tsv',sep="\t",quote=FALSE)
 ```
 
 
@@ -223,7 +222,7 @@ The first nonparametric, statistical method to filter differential hubs will be 
 diffPR.df.sig <- FindDiffHub.hcNETLAS(rank.df.final, control = 'hcNETLAS', disease='SLE', net.list = merged.net.list, centrality = "degree", q.method = "BH", min.cells = 1000, dis.meta = meta_select, celltypes = "celltypes_merged")
 
 diffPR.df.sig
-write.table(diffPR.df.sig,'/output/diffPR_df_sig.tsv',sep="\t",quote=FALSE)
+write.table(diffPR.df.sig,'/users/output/diffPR_df_sig.tsv',sep="\t",quote=FALSE)
 
 ```
 
@@ -317,13 +316,13 @@ for (i in 1:ncol(sel_top.df)){
 
   # For GOBP 2021 term
   go <- GSAplot(top.genes,'GO_Biological_Process_2021', paste(gsub("_"," ",geneset), 'gene GOBP'),10)
-  pdf(paste0("/output/GSEA_boxplot_",geneset,"_Top10Hubs_GOBP.pdf"),height=3, width=9)
+  pdf(paste0("/users/output/GSEA_boxplot_",geneset,"_Top10Hubs_GOBP.pdf"),height=3, width=9)
     print(go)
   dev.off()
 
   # For KEGG 2021 term
   kegg <- GSAplot(top.genes,'KEGG_2021_Human', paste(gsub("_"," ",geneset), 'gene KEGG'),10)
-  pdf(paste0("/output/GSEA_boxplot_",geneset,"_Top10Hubs_KEGG.pdf"),height=3, width=6)
+  pdf(paste0("/users/output/GSEA_boxplot_",geneset,"_Top10Hubs_KEGG.pdf"),height=3, width=6)
     print(kegg)
   dev.off()
 }
@@ -335,13 +334,13 @@ for (i in 1:length(direct.neighbors)){
 
   # For GOBP 2021 term
   go <- GSAplot(top.genes,'GO_Biological_Process_2021', paste(gsub("_"," ",geneset), 'gene GOBP'),10)
-  pdf(paste0("/output/GSEA_boxplot_",geneset,"_DirectNeibhbors_GOBP.pdf"),height=3, width=9)
+  pdf(paste0("/users/output/GSEA_boxplot_",geneset,"_DirectNeibhbors_GOBP.pdf"),height=3, width=9)
     print(go)
   dev.off()
 
   # For KEGG 2021 term
   kegg <- GSAplot(top.genes,'KEGG_2021_Human', paste(gsub("_"," ",geneset), 'gene KEGG'),10)
-  pdf(paste0("/output/GSEA_boxplot_",geneset,"_DirectNeibhbors_KEGG.pdf"),height=3, width=6)
+  pdf(paste0("/users/output/GSEA_boxplot_",geneset,"_DirectNeibhbors_KEGG.pdf"),height=3, width=6)
     print(kegg)
   dev.off()
 }
