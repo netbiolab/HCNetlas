@@ -18,7 +18,7 @@ $ conda activate hcNETLAS
 (hcNETLAS) $ conda install --file ./hcNETLAS/packages/requirements_hcNETLAS.txt
 ```
 
-install the modified version of ACTIONet from scHumanNet package
+Install the modified version of ACTIONet from scHumanNet package.
 ```bash
 (hcNETLAS) $ R CMD INSTALL ./scHumanNet/packages/ACTIONet_2.0.18_HNv3
 ```
