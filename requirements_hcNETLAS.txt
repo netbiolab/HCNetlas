@@ -8,6 +8,7 @@ bioconductor-scran
 bioconductor-singlecellexperiment
 r-devtools
 r-dplyr
+r-enrichr
 r-ggpubr
 r-gplots
 r-hdf5r
