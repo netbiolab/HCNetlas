@@ -7,6 +7,7 @@ bioconductor-scater
 bioconductor-scran
 bioconductor-singlecellexperiment
 r-devtools
+r-dplyr
 r-ggpubr
 r-gplots
 r-hdf5r
@@ -21,6 +22,5 @@ r-rmdformats
 r-seriation
 r-stringr
 r-wordcloud
-r-devtools
 r-seurat
 igraph
