@@ -274,7 +274,6 @@ sle_genes <- read.table('data/kegg_hsa05322.tsv',head=F,sep="\t")
 sle_genes <- sle_genes$V1
 
 geneset.conn <- GenesetConnectivity(net.list = merged.net.list, control = 'hcNETLAS', disease = 'SLE', geneset = sle_genes)
-
 geneset.conn
 ```
 
@@ -297,9 +296,7 @@ We will get top 10 central genes for each celltype with `TopHub()` function in `
 top.df <- TopHub(rank.df.final, top.n = 10)
 
 select_celltypes <- c("Bcell","Myeloid","T_CD4","T_CD8","NK")
-
 sel_top.df <- top.df[,grepl(paste(paste0("_",select_celltypes,"$"), collapse="|"), colnames(top.df))] # select cell types of interest (both exists in hcNETLAS and disease)
-
 sel_top.df
 ```
 
