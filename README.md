@@ -8,7 +8,7 @@ hcNETLAS comprise of 196 cell-type-specific gene networks (CGNs) built with 24 h
 ![](images/hcNETLAS_Overview.png)
 
 ### Setting up the Environment
-For running hcNETLAS, we recommend a `conda` envrionment to install packages in the `packages` folder
+For running hcNETLAS, we recommend a `conda` envrionment to install packages in the `packages` folders.
 
 ```bash
 $ conda create -n hcNETLAS R=4
@@ -16,6 +16,7 @@ $ git clone https://github.com/netbiolab/hcNETLAS.git
 $ git clone https://github.com/netbiolab/scHumanNet.git
 $ conda activate hcNETLAS
 (hcNETLAS) $ conda install --file ./hcNETLAS/packages/requirements_hcNETLAS.txt
+(hcNETLAS) $ conda install --file ./scHumanNet/packages/requirements_scHumanNet.txt
 ```
 
 install the modified version of ACTIONet from scHumanNet package
@@ -34,17 +35,20 @@ devtools::install_github("netbiolab/hcNETLAS")
 
 ```r
 library(hcNETLAS)
-library(scHumanNet) #
-library(ACTIONet) #
-library(SCINET) #
-library(Seurat) #
-library(igraph) #
-library(SingleCellExperiment) #
-library(purrr) #
-library(dplyr) #
-library(stringr) #
-library(devtools) #
+library(scHumanNet)
+library(ACTIONet)
+library(SCINET)
+library(Seurat)
+library(igraph)
+library(SingleCellExperiment)
+library(purrr)
+library(dplyr)
+library(stringr)
+library(devtools)
 ```
+
+
+
 ### Download networks from hcNETLAS
 Load CGNs from hcNETLAS with command `data('hcNETLAS_networks')`. Interectomes were loaded as a list in object name `hcNETLAS_list`.
 
