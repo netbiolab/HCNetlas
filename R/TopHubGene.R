@@ -1,4 +1,4 @@
-#' FindNeighbors
+#' GetNeighbors
 #'
 #' @description Find direct neibhbors for each CGNs in corresponding top hub genes
 #'
@@ -9,8 +9,8 @@
 #' @export
 #'
 #' @examples
-#' direct.neighbors <- FindNeighbors(top.df=sel_top.df, net.list =merged.net.list)
-FindNeighbors <- function(top.df = NULL,
+#' direct.neighbors <- GetNeighbors(top.df=sel_top.df, net.list =merged.net.list)
+GetNeighbors <- function(top.df = NULL,
                           net.list = NULL){
 
   if (!(all(colnames(top.df) %in% names(net.list)))){
