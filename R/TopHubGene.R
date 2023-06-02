@@ -72,6 +72,7 @@ GSAplot <- function(genes, database, title, top.term){
     coord_flip() +
     scale_fill_gradient(name = 'overlap percentage',low = '#a1c4fd', high = '#ff9a9e') +
     theme_classic() +
+    theme(axis.text.x = element_text(size = 20)) +
     labs(
       title = title,
       y = '-log10(qvalue)',
