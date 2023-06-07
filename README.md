@@ -3,7 +3,7 @@ Human cell-type-specific network atlas (hcNETLAS) with network-based disease ana
 
 
 ### hcNETLAS Introduction
-hcNETLAS comprise of 196 cell-type-specific gene networks (CGNs) built with 24 healthy human tissues and 196 cell types based on single-cell RNA sequencing (scRNA-seq) data. Single-cell transcriptomic data were obtained from the Human Cell Atlas (HCA; [Cross-tissue immune cell atlas (Dominguez Conde et al. Science. 2022)](https://doi.org/10.1126/science.abl5197), [The Tabula Sapiens (The Tabula Sapiens consortium. Science. 2022)](https://doi.org/10.1126/science.abl4896)) and [Allen Brain Atlas](https://portal.brain-map.org/atlases-and-data/rnaseq). CGNs were generated with [scHumanNet (Cha et al. Nucleic Acids Research. 2022)](https://doi.org/10.1093/nar/gkac1042) scRNA-seq network inference package. 
+hcNETLAS comprise of 198 cell-type-specific gene networks (CGNs) built with 25 healthy human tissues and 61 cell types based on single-cell RNA sequencing (scRNA-seq) data. Single-cell transcriptomic data were obtained from the Human Cell Atlas (HCA; [Cross-tissue immune cell atlas (Dominguez Conde et al. Science. 2022)](https://doi.org/10.1126/science.abl5197), [The Tabula Sapiens (The Tabula Sapiens consortium. Science. 2022)](https://doi.org/10.1126/science.abl4896)) and [Allen Brain Atlas](https://portal.brain-map.org/atlases-and-data/rnaseq). CGNs were generated with [scHumanNet (Cha et al. Nucleic Acids Research. 2022)](https://doi.org/10.1093/nar/gkac1042) scRNA-seq network inference package. 
 
 ![](images/hcNETLAS_Overview.png)
 
@@ -50,7 +50,7 @@ library(devtools)
 
 
 ### Download networks from hcNETLAS
-Load CGNs from hcNETLAS with command `data('hcNETLAS_networks')`. Interectomes were loaded as a list in object name `hcNETLAS_list`.
+Load CGNs from hcNETLAS with command `data('hcNETLAS_networks')`. Interectomes were loaded as a list with object name `hcNETLAS_list`.
 
 ``` r
 data('hcNETLAS_networks')
@@ -94,11 +94,11 @@ CellType()
 
 # Three disease analysis pipelines using hcNETLAS as a reference network
 
-hcNETLAS serves as a reference CGNs that can be used for network-based analysis with disease scRNA-seq data. Here, we present three downstream analysis pipelines. Firstly, we propose a differential hubness analysis pipeline. This method, first introduced in the scHumanNet paper, identifies genes with differing centrality between two CGNs. We modified the pipeline to compare two networks to define differential hubness genes directly. Seconly, users can query CGNs in hcNETLAS with a gene set to identify relevant cell types in a given disease gene set while comparing the gene set connectivity of the gene set in hcNETLAS CGNs with that of the disease CGNs. Cell types exhibiting high connectivity differences between disease networks and hcNETLAS networks demonstrate their association with the disease. Lastly, the top hub genes identified from disease CGNs and hcNETLAS CGNs can be compared. Genes with higher hubness indicate their vital role in cell types and disease conditions. Therefore, it is critical to identify these genes in disease-relevant pathway analysis. Further extending examination into direct neighbors also provides insights into the essential roles and state of the cell types. 
+hcNETLAS serves reference CGNs that can be used for network-based analysis with disease scRNA-seq data. Here, we present three downstream analysis pipelines. Firstly, we propose a differential hubness analysis pipeline. This method, first introduced in the scHumanNet paper, identifies genes with differing centrality between two CGNs. We modified the pipeline to compare two networks to define differential hubness genes directly. Seconly, users can query CGNs in hcNETLAS with a gene set to identify relevant cell types in a given disease gene set while comparing the gene set connectivity of the gene set in hcNETLAS CGNs with that of the disease CGNs. Cell types exhibiting high connectivity differences between disease networks and hcNETLAS networks demonstrate their association with the disease. Lastly, the top hub genes identified from disease CGNs and hcNETLAS CGNs can be compared. Genes with higher hubness indicate their vital role in cell types and disease conditions. Therefore, it is critical to identify these genes in disease-relevant pathway analysis. Further extending examination into direct neighbors also provides insights into the essential roles and state of the cell types. 
 
 ![](images/hcNETLAS_pipelines.png)
 
-For an example disease scRNA-seq data, we build CGNs with scHumanNet using systemic lupus erythematosus (SLE) scRNA-seq data published in [Nehar-Belaid et al. Nature Immunology 2020](https://doi.org/10.1038/s41590-020-0743-0), which is publically accessible from [dbGaP Study Accession: phs002048.v1.p1](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002048.v1.p1). We merged, preprocessed, corrected batch effect and annotated cell types. We selected sequencing data from five SLE patients for our hcNETLAS tutorial. Test count data can be accessed below the `data` folder under `cSLE_five_counts` and corresponding metadata with `cSLE_five_metadata.csv` file.
+For an example disease scRNA-seq data, we adapted systemic lupus erythematosus (SLE) scRNA-seq data published in [Nehar-Belaid et al. Nature Immunology 2020](https://doi.org/10.1038/s41590-020-0743-0), publically accessible from [dbGaP Study Accession: phs002048.v1.p1](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002048.v1.p1). We merged, preprocessed, corrected batch effect and annotated cell types. We selected sequencing data from five SLE patients for our hcNETLAS tutorial. Test count data can be accessed below the `data` folder under `cSLE_five_counts` and corresponding metadata with `cSLE_five_metadata.csv` file.
 
 
 ### Build CGNs with scHumanNet
@@ -111,7 +111,7 @@ meta$X <- NULL
 ```
 
 
-`getCellType()` function returns which cell type CGNs are existing in hcNETLAS. Since SLE data is obtaned from PBMC data, we will compare hcNETLAS networks constructed based on blood single-cell data. We would match cell-type annotation corresponds with hcNETLAS available cell types.
+`getCellType()` function returns cell types of CGNs existing in corresponding tissues in hcNETLAS. Since SLE data is obtaned from PBMC data, we will compare it with hcNETLAS networks from blood single-cell data. We would match cell-type annotation corresponds with hcNETLAS's available cell types.
 
 ```r
 getCelltype("BLD")
@@ -138,7 +138,7 @@ meta_select <- meta[meta$celltypes_merged != 'Others',]
 ```
 
 ### Create sce object
-This tutorial converts count data and metadata to sce obeject from `SingleCellExperiment`, to be used as intput for network construction.
+This tutorial converts count data and metadata to sce obeject with `SingleCellExperiment`, to used it as an intput for network construction.
 
 ``` r
 data <- SingleCellExperiment(assays = list(logcounts = counts_select), colData = meta_select)
@@ -149,7 +149,7 @@ Prior to scHumanNet construction, reduce data and use the ace class from the ACT
 ace <- reduce.ace(data)
 ```
 
-The column `celltypes_merged` of the metadata here indicates the column where each barcode is annotated to merged celltypes which will be used as a classification to generate CGNs using scHumanNet.
+The column `celltypes_merged` of the metadata here indicates the column where each barcode is annotated, which will be used as a classification to generate CGNs using scHumanNet.
 
 ``` r
 ace[['Labels']] <- meta_select$celltypes_merged
@@ -162,14 +162,14 @@ ace <- compute.cluster.feature.specificity(ace, ace$Labels, "celltype_specificit
 Celltype.specific.networks = run.SCINET.clusters(ace, specificity.slot.name = "celltype_specificity_scores_feature_specificity")
 ```
 
-Sort each genepair alphabetically and add LLS weight from HumanNetv3.
-Elements of `sorted.net.list` are stored as edgelist. This is later useful for assessing edge overlap between scHumanNets.
+Sort each gene pair alphabetically and add LLS weight from HumanNetv3.
+Elements of `sorted.net.list` are stored as edge list. This is later useful for assessing edge overlap between scHumanNets.
 
 ``` r
 sorted.net.list <- SortAddLLS(Celltype.specific.networks, reference.network = graph.hn3)
 ```
 
-Check each element of list and save scHumanNets, with both SCINET and LLS weights included in the edgelist for downstream analysis. R code used to analyze pan-cancer scHumanNet is included in the `figures` folder.
+Check each element of list and save scHumanNets, with both SCINET and LLS weights included in the edge list for downstream analysis. R code used to analyze pan-cancer scHumanNet is included in the `figures` folder.
 
 ``` r
 lapply(sorted.net.list, head)
@@ -178,13 +178,13 @@ saveRDS(sorted.net.list, '/users/output/sorted_el_list.rds')
 ```
 
 ### Generate merged network list to compare disease CGNs with hcNETLAS CGNs.
-As SLE single-cell transcriptomic data is obtained from PBMC, we merged `sorted.net.list` with hcNETLAS blood networks.
+To combine disease CGNs and hcNETLAS CGNs, apply `MergeCGN.hcNETLAS()` function.
 
 ```r
 merged.net.list <- MergeCGN.hcNETLAS(sorted.net.list, disease="SLE",tissue="BLD")
 ```
 
-In this tutorial we will follow the analysis pipeline of `scHumanNet` package which uses degree centrality and their percentile rank to account for network size differences with function `GetCentrality()` and `CombinePercRank()`.
+In this tutorial we will follow the analysis pipeline of `scHumanNet` package which uses degree centrality and their percentile rank to account for network size differences with functions `GetCentrality()` and `CombinePercRank()`.
 
 ``` r
 strength.list <- GetCentrality(method='degree', net.list = merged.net.list)
@@ -198,7 +198,7 @@ rank.df.final <- CombinePercRank(strength.list)
 
 
 ## 1. Differential hubness gene analysis
-While comparing disease CGNs to hcNETLAS CGNs, genes with differed centrality can be detected. Differential hubness gene analysis detects genes with a significance difference in degree centrality percentile rank in two groups.
+Genes that significantly changed centrality in disease networks can be regarded as a potential disease marker. Differential hubness gene analysis detects genes with a significance difference in degree centrality percentile rank in two groups.
 
 Get the differential percentile rank value for each genes with function `DiffPR.hcNETLAS()`, which is modified function of `DiffPR()` in `scHumanNet` package. The output is a dataframe with genes and the corresponding diffPR value for each cell types. The input of `DiffPR.hcNETLAS()` includes the output of CombinePercRank(), two characters refering conditions(disease & control). 
 
@@ -236,7 +236,7 @@ write.table(diffPR.df.sig,'/users/output/diffPR_df_sig.tsv',sep="\t",quote=FALSE
 
 
 
-To extract top n percent of diffPR genes, we can use function `TopDiffHub()` in `scHumanNet` package. 
+To extract top n percent of diffPR genes, function `TopDiffHub()` in `scHumanNet` package can be used. 
 
 ``` r
 diffPR.df.top <- TopDiffHub(diffPR.df, top.percent = 0.05)
@@ -256,7 +256,7 @@ diffPR.df.top
 
 
 ## 2. Gene set connectivity analysis
-Next, we propose geneset connectivity analysis, which count for connected disease-related genes in networks. As a disease geneset, SLE-associated genes from KEGG pathway are uploaded in `data` folder with `kegg_hsa05322.tsv` file. The function `GenesetConnectivity()` takes merged network list containing both hcNETLAS CGNs and disease CGNs, two characters indicating control and disease, and disease geneset. The function returns a dataframe with counts of connections among disease genes in each networks.
+Next, we propose gene set connectivity analysis, accounting for connected disease-related genes in networks. As a disease geneset, SLE-associated genes from KEGG pathway are uploaded in `data` folder with `kegg_hsa05322.tsv` file name. The function `GenesetConnectivity()` takes merged network list containing both hcNETLAS CGNs and disease CGNs, two characters indicating control and disease, and disease gene set. The function returns a dataframe with counts of connections among disease genes in each networks.
 
 ```r
 #get SLE DB
@@ -278,8 +278,8 @@ geneset.conn
 
 
 ## 3. Top hub gene analysis
-Third, we select genes with top degree centrality and their direct neighbors to perform enrichment analysis. 
-We will get top 10 central genes for each celltype with `TopHub()` function in `scHumanNet` package, and obtain their direct neighiboring genes.
+Third, we would select top hub genes and their direct neighbors to perform enrichment analysis. 
+We will get top 10 central genes with highest degree centraltiy for each celltype with `TopHub()` function in `scHumanNet` package, and obtain their direct neighiboring genes.
 
 
 ``` r
@@ -304,7 +304,7 @@ Function `GetNeibors()` gives direct neighboring nodes connected to top hub gene
 direct.neighbors <- GetNeighbors(top.df=sel_top.df, net.list =merged.net.list)
 ```
 
-In this tutorial, we will adapt `enrichR` package to perform enrichment analysis with GOBP and KEGG pathway gene sets. Function `GSAplot()` 
+In this tutorial, we utilzed `enrichR` package to perform enrichment analysis with GOBP and KEGG pathway gene sets. Function `GSAplot()` 
 
 ```r
 library(enrichR)
