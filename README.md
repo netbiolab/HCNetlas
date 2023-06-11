@@ -138,7 +138,7 @@ meta_select <- meta[meta$celltypes_merged != 'Others',]
 ```
 
 ### Create sce object
-This tutorial converts count data and metadata to sce obeject with `SingleCellExperiment`, to used it as an intput for network construction.
+This tutorial converts count data and metadata to sce object with `SingleCellExperiment`, to used it as an intput for network construction.
 
 ``` r
 data <- SingleCellExperiment(assays = list(logcounts = counts_select), colData = meta_select)
