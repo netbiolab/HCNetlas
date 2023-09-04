@@ -1,18 +1,18 @@
-#' GenesetConnectivity
+#' Compactness
 #'
-#' @description Calcuate conncectivity among disease genes in each networks
+#' @description Calcuate within group conncectivity among disease genes in each networks
 #'
 #' @param geneset Character string that contains disease-related genes
 #' @param disease Character string that states control
 #' @param control Character string that states disease
 #' @param net.list Output of SortAddLLS, network list to perfrom the analysis
 #'
-#' @return Dataframe Count of connectivitiy in each networks
+#' @return Dataframe Compactness in each networks
 #' @export
 #'
 #' @examples
-#' geneset.conn <- GenesetConnectivity(net.list = merged.net.list, control = 'hcNETLAS', disease = 'SLE', geneset = sle_genes)
-GenesetConnectivity <- function(net.list = NULL,
+#' geneset.conn <- Compactness(net.list = merged.net.list, control = 'hcNETLAS', disease = 'SLE', geneset = sle_genes)
+Compactness <- function(net.list = NULL,
                                 control = NULL,
                                 disease = NULL,
                                 geneset = NULL){
