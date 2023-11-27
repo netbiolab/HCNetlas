@@ -27,5 +27,5 @@ Dataframe Count of connectivitiy in each networks
 Calcuate conncectivity among disease genes in each networks
 }
 \examples{
-geneset.conn <- GenesetConnectivity(net.list = merged.net.list, control = 'hcNETLAS', disease = 'SLE', geneset = sle_genes)
+geneset.conn <- GenesetConnectivity(net.list = merged.net.list, control = 'HCNetlas', disease = 'SLE', geneset = sle_genes)
 }
