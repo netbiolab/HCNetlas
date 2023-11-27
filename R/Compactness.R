@@ -11,14 +11,14 @@
 #' @export
 #'
 #' @examples
-#' geneset.conn <- Compactness(net.list = merged.net.list, control = 'hcNETLAS', disease = 'SLE', geneset = sle_genes)
+#' geneset.conn <- Compactness(net.list = merged.net.list, control = 'HCNetlas', disease = 'SLE', geneset = sle_genes)
 Compactness <- function(net.list = NULL,
                                 control = NULL,
                                 disease = NULL,
                                 geneset = NULL){
 
 
-  # select celltypes both exist in hcNETLAS and disease
+  # select celltypes both exist in HCNetlas and disease
   items <- names(net.list)
 
   celltypes_ctl <- gsub(paste0(control,"_"),"",items[grep(control,items)])

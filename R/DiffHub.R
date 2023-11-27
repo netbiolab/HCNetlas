@@ -1,4 +1,4 @@
-#' DiffPR.hcNETLAS
+#' DiffPR.HCNetlas
 #'
 #' @description Get differnence of normalized centrality values from the output of GetCentrality()
 #'
@@ -15,8 +15,8 @@
 #' @examples
 #' strength.list <- GetCentrality(net.list = merged.net.list)
 #' rank.df.final <- CombinePercRank(perc.rank.list = strength.list)
-#' DiffPR.hcNETLAS(rank.df.final, control = 'hcNETLAS', disease = 'SLE')
-DiffPR.hcNETLAS <- function(rank.df.final = NULL,
+#' DiffPR.HCNetlas(rank.df.final, control = 'HCNetlas', disease = 'SLE')
+DiffPR.HCNetlas <- function(rank.df.final = NULL,
                             control = NULL,
                             disease = NULL){
 
@@ -81,7 +81,7 @@ DiffPR.hcNETLAS <- function(rank.df.final = NULL,
 }
 
 
-#' FindDiffHub.hcNETLAS
+#' FindDiffHub.HCNetlas
 #'
 #' @description Calcuate statistical signficance of diffPR values calculated with DiffPR()
 #'
@@ -104,8 +104,8 @@ DiffPR.hcNETLAS <- function(rank.df.final = NULL,
 #' @examples
 #' strength.list <- GetCentrality(net.list = merged.net.list)
 #' rank.df.final <- CombinePercRank(perc.rank.list = strength.list)
-#' diffPR.df.sig <- FindDiffHub.hcNETLAS(rank.df.final, control = 'hcNETLAS', disease='SLE', net.list = merged.net.list, centrality = "degree", q.method = "BH", min.cells = 1000, dis.meta = meta_select, celltypes = "celltypes_merged")
-FindDiffHub.hcNETLAS <- function(rank.df.final = NULL,
+#' diffPR.df.sig <- FindDiffHub.HCNetlas(rank.df.final, control = 'HCNetlas', disease='SLE', net.list = merged.net.list, centrality = "degree", q.method = "BH", min.cells = 1000, dis.meta = meta_select, celltypes = "celltypes_merged")
+FindDiffHub.HCNetlas <- function(rank.df.final = NULL,
                                  disease = NULL,
                                  control = NULL,
                                  net.list = NULL,
@@ -116,7 +116,7 @@ FindDiffHub.hcNETLAS <- function(rank.df.final = NULL,
                                  celltypes = NULL){
 
 
-  # select celltypes both exist in hcNETLAS and disease
+  # select celltypes both exist in HCNetlas and disease
   items <- colnames(rank.df.final)
 
   spl_items <- str_split(names(rank.df.final),'_',n=2)
@@ -157,7 +157,7 @@ FindDiffHub.hcNETLAS <- function(rank.df.final = NULL,
 
   final.df.list <- list()
 
-  #check that each celltype pass minimum threshold (this only checks for disease networks since all hcNETLAS CGNs were built with more than 1,000 cell counts)
+  #check that each celltype pass minimum threshold (this only checks for disease networks since all HCNetlas CGNs were built with more than 1,000 cell counts)
   celltypes.analyze <- vector()
   for (celltype in celltypes_exist){
     disease.cells <- meta[(meta[,celltypes] == celltype),]
@@ -174,7 +174,7 @@ FindDiffHub.hcNETLAS <- function(rank.df.final = NULL,
     #progress bar
     disease.cells.analyze <- meta[(meta[,celltypes] == celltype),]
 
-    print(paste("Finding", celltype, "DiffHubs between hcNETLAS CGNs and Disease CGNs with ", nrow(disease.cells.analyze),"cells..."))
+    print(paste("Finding", celltype, "DiffHubs between HCNetlas CGNs and Disease CGNs with ", nrow(disease.cells.analyze),"cells..."))
 
     #get diffPR.df of ctrl disase for each celltype
     celltype_condition_cols <- c(paste(control, celltype, sep = '_'), paste(disease, celltype,sep = '_'), paste(celltype, control, sep = '_'), paste(celltype, disease,sep = '_'))
@@ -194,7 +194,7 @@ FindDiffHub.hcNETLAS <- function(rank.df.final = NULL,
     #get df where at least one column has non-zero value. we don't need to evaluate diffPR zero..
     df.f <- df[!(df[,1] ==0 & df[,2] == 0),]
 
-    #its percentile rank...DIS-CTL lets higher value have higher centrality in Disease CGNs compare to hcNETLAS CGNs
+    #its percentile rank...DIS-CTL lets higher value have higher centrality in Disease CGNs compare to HCNetlas CGNs
     df.f$gene <- rownames(df.f)
     df.f$DiffPR <- df.f[,2] - df.f[,1]
 

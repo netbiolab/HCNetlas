@@ -1,7 +1,7 @@
 
 #' Tissue
 #'
-#' @description Return tissue types stored in hcNETLAS.
+#' @description Return tissue types stored in HCNetlas.
 #'
 #' @return a vector of characters, with tissue names.
 #' @export
@@ -14,7 +14,7 @@ Tissue <- function(){
 
 #' CellType
 #'
-#' @description Return cell types stored in hcNETLAS.
+#' @description Return cell types stored in HCNetlas.
 #'
 #' @return a vector of characters, with cell-type names.
 #' @export
@@ -27,7 +27,7 @@ CellType <- function(){
 
 #' getCelltype
 #'
-#' @description Return cell types of networks stored in hcNETLAS in a specific tissue.
+#' @description Return cell types of networks stored in HCNetlas in a specific tissue.
 #'
 #' @param tissue a character of tissue names. Should be included in output of Tissues() function.
 #'
@@ -41,7 +41,7 @@ CellType <- function(){
 getCelltype <- function(tissue = NULL){
   tryCatch(
     if (tissue %in% Tissues){
-      items <- str_split(names(hcNETLAS_list),'_',n=2)
+      items <- str_split(names(HCNetlas_list),'_',n=2)
 
       tissue_v <- unlist(lapply(items, function(x) x[1]))
       celltype_v <- unlist(lapply(items, function(x) x[2]))
@@ -60,32 +60,32 @@ getCelltype <- function(tissue = NULL){
 
 
 
-#' MergeCGN.hcNETLAS
+#' MergeCGN.HCNetlas
 #'
-#' @description Merge disease CGNs and hcNETLAS CGNs with corresponding tissue.
+#' @description Merge disease CGNs and HCNetlas CGNs with corresponding tissue.
 #'
 #' @param disease_cgn scHumanNet output CGN list. output from SortAddLLS() function in scHumanNet package.
 #' @param disease a character specifying a disease.
-#' @param tissue a tissue name for selecting hcNETLAS CGNs. We recomand this corresponds with tissue where disease scRNA-seq data were obtained. Should be included in output of Tissues() function.
+#' @param tissue a tissue name for selecting HCNetlas CGNs. We recomand this corresponds with tissue where disease scRNA-seq data were obtained. Should be included in output of Tissues() function.
 #'
-#' @return a list of CGN networks. Disease CGNs and hcNETLAS healhty CGNs merged.
+#' @return a list of CGN networks. Disease CGNs and HCNetlas healhty CGNs merged.
 #' @import dplyr
 #'
 #' @export
 #'
 #' @examples
-#' MergeCGN.hcNETLAS(disease_cgn=sorted.net.list, disease="SLE", tissue="LNG")
-MergeCGN.hcNETLAS <- function(disease_cgn  = NULL,disease = NULL, tissue = NULL){
+#' MergeCGN.HCNetlas(disease_cgn=sorted.net.list, disease="SLE", tissue="LNG")
+MergeCGN.HCNetlas <- function(disease_cgn  = NULL,disease = NULL, tissue = NULL){
   tryCatch(
     if (tissue %in% Tissues){
-      items <- str_split(names(hcNETLAS_list),'_',n=2)
+      items <- str_split(names(HCNetlas_list),'_',n=2)
 
       tissue_v <- unlist(lapply(items, function(x) x[1]))
       celltype_v <- unlist(lapply(items, function(x) x[2]))
 
-      control_cgn <- hcNETLAS_list[tissue_v == tissue]
+      control_cgn <- HCNetlas_list[tissue_v == tissue]
 
-      names(control_cgn) <- gsub(tissue,"hcNETLAS",names(control_cgn))
+      names(control_cgn) <- gsub(tissue,"HCNetlas",names(control_cgn))
       names(disease_cgn) <- paste0(disease,"_",names(disease_cgn))
       merged_cgn <- c(control_cgn, disease_cgn)
 
