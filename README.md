@@ -134,7 +134,7 @@ meta$celltypes_merged <- ifelse(meta$celltype %in% c('Memory B','Naive B','Plasm
                                                         ifelse(meta$celltype %in% c('RBC','pDC'), 'Others',
                                                                as.character(meta$celltype)))))))
 
-counts_select <- counts[,meta$celltypes_merged != 'Others',]
+counts_select <- counts[,meta$celltypes_merged != 'Others']
 meta_select <- meta[meta$celltypes_merged != 'Others',]
 ```
 
