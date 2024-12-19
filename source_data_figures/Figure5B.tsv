@@ -1,0 +1,17 @@
+group	Celltype	ADgenes_hit
+DEGs_ADHigh	Astrocyte	4
+DHGs_ADHigh	Astrocyte	0
+DEGs_ADLow	Astrocyte	5
+DHGs_ADLow	Astrocyte	0
+DEGs_ADHigh	Inhibitory	1
+DHGs_ADHigh	Inhibitory	10
+DEGs_ADLow	Inhibitory	5
+DHGs_ADLow	Inhibitory	22
+DEGs_ADHigh	Excitatory	3
+DHGs_ADHigh	Excitatory	14
+DEGs_ADLow	Excitatory	5
+DHGs_ADLow	Excitatory	16
+DEGs_ADHigh	Oligodendrocyte	3
+DHGs_ADHigh	Oligodendrocyte	0
+DEGs_ADLow	Oligodendrocyte	4
+DHGs_ADLow	Oligodendrocyte	1

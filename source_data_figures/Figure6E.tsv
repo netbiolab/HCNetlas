@@ -1,0 +1,7 @@
+celltype	variable	value
+B_cell	DEG_count	0
+T_cell	DEG_count	3
+Myeloid	DEG_count	0
+B_cell	DiffHub_count	0
+T_cell	DiffHub_count	6
+Myeloid	DiffHub_count	4

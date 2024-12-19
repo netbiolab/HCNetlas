@@ -1,0 +1,199 @@
+GSVA	GSVA_code	GSVA_description
+BLD_Bcell	0.909750641130597	C0034345	Pyruvate Dehydrogenase Complex Deficiency Disease
+BLD_ILC	0.964205816554822	C0427480	Elliptocytosis found
+BLD_Myeloid	0.861165684348431	C4304021	Autosomal dominant macrothrombocytopenia
+BLD_Tcell	0.898674087412047	C0427480	Elliptocytosis found
+BLR_Bcell	0.885709734604892	C0079297	Epidermolysis Bullosa Progressiva
+BLR_Myeloid	0.93456936666973	C1840452	Hyaloideoretinal degeneration of Wagner
+BLR_Tcell	0.971408304687086	C1608393	Megacystis microcolon intestinal hypoperistalsis syndrome
+BMA_Bcell	0.950068125002039	C0271934	Congenital dyserythropoietic anemia, type III
+BMA_HSC_MPP	0.884275124748597	C1868684	EAR, PATELLA, SHORT STATURE SYNDROME
+BMA_ILC	0.824405715069864	C2932714	Pontocerebellar Hypoplasia Type 2
+BMA_Myeloid	0.926337914937377	C1319466	Barber Say syndrome
+BMA_Tcell	0.917171386478999	C0427480	Elliptocytosis found
+FAT_Myeloid	0.919463087248325	C0024143	Lupus Nephritis
+FAT_Tcell	0.958967643367714	C0410179	Ullrich congenital muscular dystrophy 1
+JEJEPI_Tcell	0.901625927542537	C0432197	Short rib-polydactyly syndrome, Verma-Naumoff type
+JEJLP_Bcell	0.870082392099127	C0678213	Complete hydatidiform mole
+JEJLP_Myeloid	0.855217582183839	C0028738	Nystagmus
+JEJLP_Tcell	0.859169531292688	C0042170	Uveomeningoencephalitic Syndrome
+LARITN_Tcell	0.952911005620142	C0339985	Idiopathic bronchiectasis
+LIV_ILC	0.905423636324042	C4316812	Fibrinogen Deficiency
+LIV_Myeloid	0.97893817864354	C0025303	Meningococcal Infections
+LIV_Tcell	0.968516396573369	C0750384	Coumarin Resistance
+LLN_Bcell	0.78780934453066	C0239849	Harlequin Fetus
+LLN_ILC	0.825759426220146	C0035258	Restless Legs Syndrome
+LLN_Tcell	0.847355149916115	C0239849	Harlequin Fetus
+LN_Bcell	0.925083210563674	C3808988	FANCONI ANEMIA, COMPLEMENTATION GROUP Q
+LN_ILC	0.826138443192703	C0020625	Hyponatremia
+LN_Myeloid	0.903912260599148	C0026706	Mucopolysaccharidosis III
+LN_Tcell	0.765200883773093	C3887645	Job Syndrome
+LNG_ILC	0.832051072188642	C0546966	Monilethrix
+LNG_Myeloid	0.949197860962575	C1961835	Gaucher Disease, Type 1
+LNG_Tcell	0.827852148888731	C0035220	Respiratory Distress Syndrome, Newborn
+MG_Tcell	0.981284443716924	C1706595	Pachyonychia Congenita, Jadassohn Lewandowsky Type
+MLN_Bcell	0.822820899355673	GWASCAT_DIS_1637	Bronchodilator response in asthma (inhaled corticosteroid treatment interaction)
+MLN_ILC	0.920259713813085	C0272199	Familial Hemophagocytic Lymphocytosis
+MLN_Tcell	0.866810563961713	C0239849	Harlequin Fetus
+MM_Myeloid	0.978610792819344	C3495498	Cardiomyopathy, Familial Hypertrophic, 1 (disorder)
+PNC_Myeloid	0.933973589435784	C4080064	Autosomal Dominant Hereditary Pancreatitis
+PRS_Tcell	0.886666110987601	C0266484	Schizencephaly
+SG_Bcell	0.902439024390272	C0339985	Idiopathic bronchiectasis
+SG_Myeloid	0.950534953112642	C0268374	Adult junctional epidermolysis bullosa (disorder)
+SG_Tcell	0.959240464887876	C0265234	Branchio-Oto-Renal Syndrome
+SKN_Myeloid	0.96409668794676	C4551476	Robinow Syndrome, Autosomal Dominant
+SKN_Tcell	0.928094173057793	C0079301	Junctional Epidermolysis Bullosa
+SMITN_Tcell	0.874740173940755	C0341703	Adult Fanconi syndrome
+SPL_Bcell	0.895509367623535	C0002938	Aneuploidy
+SPL_ILC	0.825870272422066	C2932714	Pontocerebellar Hypoplasia Type 2
+SPL_Myeloid	0.825667048616836	C0041296	Tuberculosis
+SPL_Tcell	0.886192393406912	C0239849	Harlequin Fetus
+THY_Bcell	0.900145317194144	C0002938	Aneuploidy
+THY_ILC	0.970753533038697	C1608393	Megacystis microcolon intestinal hypoperistalsis syndrome
+THY_Tcell	0.787741111377049	C0020635	Hypopituitarism
+TRA_Myeloid	0.921477681981895	C0038160	Staphylococcal Infections
+VAS_Myeloid	0.925137774867707	C1608393	Megacystis microcolon intestinal hypoperistalsis syndrome
+BLD_ClassicalMonocyte	0.920791062025082	C0003119	Anophthalmos
+BLD_Erythrocyte	0.989795918367347	C0221409	Anemia, hereditary spherocytic hemolytic
+BLD_Monocyte	0.864334592403996	C0014084	Enchondromatosis
+BLD_NaiveBcell	0.795175728393875	C0265261	Multiple pterygium syndrome
+BLD_Neutrophil	0.881722831125967	C4085590	Cone-Rod Dystrophies
+BLD_NK	0.900527341109057	C0007274	Carotid Artery Thrombosis
+BLD_NK_CD16+	0.81945511933445	C0265970	Porokeratosis, Disseminated Superficial Actinic
+BLD_T_CD4	0.862287141876822	C4757950	Isolated ATP synthase deficiency
+BLD_T_CD8	0.959956572609367	C1837092	Myasthenic Syndrome, Congenital, with Facial Dysmorphism, associated with Acetylcholine Receptor Deficiency
+BLD_Tmemory_CD4	0.849795841179207	C3853779	Neonatal Alloimmune Thrombocytopenia
+BLD_Tmemory_CD8	0.786189698703134	C1837092	Myasthenic Syndrome, Congenital, with Facial Dysmorphism, associated with Acetylcholine Receptor Deficiency
+BLD_Tnaive_cm_CD4	0.921625711068406	C0265261	Multiple pterygium syndrome
+BLD_Tnaive_cm_CD8	0.90787653810186	C0265261	Multiple pterygium syndrome
+BLR_Macrophage	0.920336116112861	C0268849	Overactive Detrusor
+BLR_PlasmaCell	0.923415753387578	C0079297	Epidermolysis Bullosa Progressiva
+BMA_ClassicalMonocyte	0.919408522944301	C0001144	Acne Vulgaris
+BMA_Monocyte	0.939703153988878	C0023931	Lobstein Disease
+BMA_Neutrophil	0.85376766519347	C0018203	Chronic granulomatous disease
+BMA_NK_CD16+	0.851098245184189	C0007758	Cerebellar Ataxia
+BMA_Progenitor	0.879569896272178	C3808988	FANCONI ANEMIA, COMPLEMENTATION GROUP Q
+BMA_T_CD4	0.921552384573433	C3550234	PEROXISOME BIOGENESIS DISORDER 2B
+BMA_Tgd_CRTAM+	0.851002307746329	C0920350	Autoimmune thyroiditis
+BMA_Tmemory_CD4	0.814442155638619	C0265331	Autosomal dominant hypohidrotic ectodermal dysplasia syndrome (disorder)
+BMA_Tmemory_CD8	0.831527939971046	C0011168	Deglutition Disorders
+BMA_Tnaive_cm_CD4	0.720277058441347	C0155299	Coloboma of optic disc
+FAT_Macrophage	0.904463400224899	C0265205	Robinow Syndrome
+FAT_MSC	0.910023462650759	C4551476	Robinow Syndrome, Autosomal Dominant
+JEJEPI_Tgd_Trm	0.881874727193352	C0432197	Short rib-polydactyly syndrome, Verma-Naumoff type
+JEJEPI_Tmemory_CD8	0.879255783500632	C0432197	Short rib-polydactyly syndrome, Verma-Naumoff type
+JEJEPI_Trm_Th1_Th17	0.87877349888759	C4080064	Autosomal Dominant Hereditary Pancreatitis
+JEJLP_MastCell	0.840939889387557	C0270458	Severe major depression with psychotic features
+JEJLP_PlasmaCell	0.879085502264462	C0678213	Complete hydatidiform mole
+JEJLP_Tgd_Trm	0.847122097647071	C0341703	Adult Fanconi syndrome
+JEJLP_Tmemory_CD8	0.872806895443291	C0341703	Adult Fanconi syndrome
+JEJLP_Trm_Th1_Th17	0.885305139770272	C4755264	Severe intellectual disability and progressive spastic paraplegia
+LARITN_T_CD4	0.929011840453997	C0339985	Idiopathic bronchiectasis
+LARITN_T_CD8	0.930921591095127	C0339985	Idiopathic bronchiectasis
+LIV_ClassicalMonocyte	0.96824357505321	C0750384	Coumarin Resistance
+LIV_Macrophage	0.972281333551596	C3160733	THROMBOPHILIA DUE TO THROMBIN DEFECT
+LIV_MAIT	0.966497517324174	C0750384	Coumarin Resistance
+LIV_NK_CD16+	0.891857568319191	C4316812	Fibrinogen Deficiency
+LIV_NK_CD56bright_CD16-	0.890896201024208	C4316812	Fibrinogen Deficiency
+LIV_Tgd_CRTAM+	0.889618453332063	C0393590	Fahr's syndrome (disorder)
+LIV_Tmemory_CD8	0.918637559986291	C0015624	Fanconi Syndrome
+LLN_MemoryBcell	0.877757446371834	C0268568	Classic Maple Syrup Urine Disease
+LLN_NaiveBcell	0.815103415776184	C4025860	Hearing abnormality
+LLN_T_CD4_CD8	0.940088394172547	C0346163	Endometrioid carcinoma ovary
+LLN_Tfh	0.805214452989839	C0749420	Thyroid Agenesis
+LLN_Tmemory_CD4	0.809645056518089	C2936786	Aqueductal Stenosis
+LLN_Tmemory_CD8	0.806328390013855	C2750850	GLIOMA SUSCEPTIBILITY 1
+LLN_Tnaive_cm_CD4	0.920117858896721	C0023440	Acute Erythroblastic Leukemia
+LLN_Tnaive_cm_CD8	0.877959697646204	C0239849	Harlequin Fetus
+LLN_Treg	0.857917499269652	C0154832	Exudative retinopathy
+LN_Macrophage	0.910608364484309	C1961835	Gaucher Disease, Type 1
+LN_MemoryBcell	0.873683636165236	C0043346	Xeroderma Pigmentosum
+LN_NaiveBcell	0.882916045989731	C2931418	Bare lymphocyte syndrome 2
+LN_NKT	0.789804995391692	C0346163	Endometrioid carcinoma ovary
+LN_PlasmaCell	0.926119932340282	C3808988	FANCONI ANEMIA, COMPLEMENTATION GROUP Q
+LN_T_CD4	0.856129066047411	C4551961	Familial Isolated Hyperparathyroidism
+LN_T_CD8	0.892453756752339	C0272170	Shwachman syndrome
+LN_Tmemory_CD4	0.909636581905501	C1850343	Mosaic variegated aneuploidy syndrome 1
+LN_Tnaive_CD4	0.760803700160742	C0265261	Multiple pterygium syndrome
+LNG_AlveolarMacrophage	0.830117356261717	C0023896	Alcoholic Liver Diseases
+LNG_ClassicalMonocyte	0.883614339499116	C0001144	Acne Vulgaris
+LNG_IntermediateMacrophage	0.902924806286162	C0085655	Polymyositis
+LNG_Macrophage	0.885674321434503	GWASCAT_DIS_1096	World class endurance athleticism
+LNG_MNP_T_doublet	0.940650051624004	C0020505	Hyperphagia
+LNG_NK_CD16+	0.842032992171833	C0007758	Cerebellar Ataxia
+LNG_Tmemory_CD8	0.841316514403205	C0035220	Respiratory Distress Syndrome, Newborn
+LNG_Trm_Th1_Th17	0.806768229160494	C0239849	Harlequin Fetus
+MLN_MemoryBcell	0.863698368527328	C4025860	Hearing abnormality
+MLN_NaiveBcell	0.839425446471849	GWASCAT_DIS_1637	Bronchodilator response in asthma (inhaled corticosteroid treatment interaction)
+MLN_Tfh	0.805638492320899	C0393590	Fahr's syndrome (disorder)
+MLN_Tmemory_CD8	0.837000527697114	C0015624	Fanconi Syndrome
+MLN_Tnaive_cm_CD4	0.785522733908092	C0043020	Wallerian Degeneration
+MLN_Tnaive_cm_CD8	0.835320942240407	C0035258	Restless Legs Syndrome
+MLN_Treg	0.877994512159122	C0020074	HSAN Type IV
+MM_Macrophage	0.976155399137891	C3495498	Cardiomyopathy, Familial Hypertrophic, 1 (disorder)
+SG_Macrophage	0.951970149138067	C0399376	Amelogenesis Imperfecta, Type III
+SG_MemoryBcell	0.933864454872864	C0265334	Pachyonychia Congenita
+SG_NaiveBcell	0.932176570087874	C0339985	Idiopathic bronchiectasis
+SG_T_CD4	0.946636110656423	C0014527	Epidermolysis Bullosa
+SG_T_CD8	0.969989632782238	C0265234	Branchio-Oto-Renal Syndrome
+SMITN_T_CD4	0.876863910598058	C0341703	Adult Fanconi syndrome
+SMITN_T_CD8	0.880442549140604	C0239849	Harlequin Fetus
+SPL_ClassicalMonocyte	0.851234270989553	C0162566	Porphyria Cutanea Tarda
+SPL_ErythrophagocyticMacrophage	0.93323812110873	C0034345	Pyruvate Dehydrogenase Complex Deficiency Disease
+SPL_Macrophage	0.935559556937865	C0034345	Pyruvate Dehydrogenase Complex Deficiency Disease
+SPL_MAIT	0.838231722610179	C0035258	Restless Legs Syndrome
+SPL_MemoryBcell	0.826665958758336	C0014848	Esophageal Achalasia
+SPL_NaiveBcell	0.96262549105193	GWASCAT_DIS_1002	Cognitive impairment in depression
+SPL_Neutrophil	0.92824794019755	C0001144	Acne Vulgaris
+SPL_NK	0.816691181464498	C1257806	Chromosomal Instability
+SPL_NK_CD16+	0.854048501216418	C2745997	OROFACIODIGITAL SYNDROME VI
+SPL_NK_CD56bright_CD16-	0.909856750055812	C0272199	Familial Hemophagocytic Lymphocytosis
+SPL_NKT	0.89130790636767	C0751606	Adult Acute Lymphocytic Leukemia
+SPL_PlasmaCell	0.921045452065284	C3808988	FANCONI ANEMIA, COMPLEMENTATION GROUP Q
+SPL_Tfh	0.848631366455001	C0014522	Epidermodysplasia Verruciformis
+SPL_Tgd_CRTAM+	0.810345623017682	C0011168	Deglutition Disorders
+SPL_Tmemory_CD4	0.787970793158386	C1839071	Spermatogenic Failure, Nonobstructive, Y-Linked
+SPL_Tmemory_CD8	0.976695955902427	C1507149	Partial chromosome Y deletion
+SPL_Tnaive_CD4	0.819148451193902	C0231686	Gait, Unsteady
+SPL_Tnaive_cm_CD4	0.815654147187433	C0239849	Harlequin Fetus
+SPL_Treg	0.868049335974619	C0020074	HSAN Type IV
+THY_MemoryBcell	0.8181856231187	GWASCAT_DIS_3572	Postoperative atrial fibrillation after cardiac surgery
+THY_PlasmaCell	0.926065368036249	C3808988	FANCONI ANEMIA, COMPLEMENTATION GROUP Q
+THY_T_CD4	0.829382671677844	C0341106	Eosinophilic esophagitis
+THY_Thymocyte_DN3	0.960104786334124	C1507149	Partial chromosome Y deletion
+VAS_Macrophage	0.933434612454673	GWASCAT_DIS_3670	Asthma (bronchodilator response)
+M1_GABAergic	0.93252487365856	C3502809	Generalized Epilepsy with Febrile Seizures Plus
+M1_Glutamatergic	0.951602171448291	C0149886	Seizure, Febrile, Simple
+M1_Non-neuronal	0.918971373926456	C1848519	WAARDENBURG SYNDROME, TYPE 4A
+MTG_GABAergic	0.854101090124286	C3696898	Autosomal Dominant Nocturnal Frontal Lobe Epilepsy
+MTG_Glutamatergic	0.874820187905556	C0035372	Rett Syndrome
+MTG_Non-neuronal_Non-neural	0.939329131123986	C1848519	WAARDENBURG SYNDROME, TYPE 4A
+M1_L2-3_IT	0.916506801074187	C0149886	Seizure, Febrile, Simple
+M1_L5_IT	0.86521448305747	C3502809	Generalized Epilepsy with Febrile Seizures Plus
+M1_L5-6_NP	0.868800428504427	C0020625	Hyponatremia
+M1_L6_CT	0.883390151526407	C4274118	Joubert syndrome with ocular defect
+M1_L6_IT	0.922632038411165	C0432197	Short rib-polydactyly syndrome, Verma-Naumoff type
+M1_L6b	0.844655426420042	C0027962	Melanocytic nevus
+M1_Lamp5	0.915807278878168	C1865020	Short QT Syndrome 1
+M1_Oligodendrocyte	0.900478136067009	C1848519	WAARDENBURG SYNDROME, TYPE 4A
+M1_Pvalb	0.871045408562986	C0265261	Multiple pterygium syndrome
+M1_Sst	0.866930106535218	C2936380	Neointima
+M1_Vip	0.892456373875401	C3696898	Autosomal Dominant Nocturnal Frontal Lobe Epilepsy
+MTG_Astrocyte	0.835145337760463	C0085548	Autosomal Recessive Polycystic Kidney Disease
+MTG_L2-3_IT	0.877891909786205	C0028768	Obsessive-Compulsive Disorder
+MTG_L4_IT	0.83530542514152	C1721096	Brugada ECG Pattern
+MTG_L5_IT	0.950328572219057	GWASCAT_DIS_190	Response to platinum-based neoadjuvant chemotherapy in cervical cancer
+MTG_L5-6_NP	0.814707773858899	C0020625	Hyponatremia
+MTG_L6_CT	0.869541494723031	C0085541	Epilepsy, Frontal Lobe
+MTG_L6_IT	0.894449989550839	C0017205	Gaucher Disease
+MTG_L6_IT_Car3	0.845196774362713	C0085541	Epilepsy, Frontal Lobe
+MTG_L6b	0.927756861461256	C1848201	Subcortical Band Heterotopia
+MTG_Lamp5	0.900915029732521	C0394006	Dysequilibrium syndrome
+MTG_Lamp5_Lhx6	0.889967705675703	C0394006	Dysequilibrium syndrome
+MTG_Microglia-PVM	0.951601462323355	C0001144	Acne Vulgaris
+MTG_Oligodendrocyte	0.868514056964458	C1848519	WAARDENBURG SYNDROME, TYPE 4A
+MTG_OPC	0.901080314273223	C0271097	Usher Syndrome
+MTG_Pvalb	0.922846074098346	C0034345	Pyruvate Dehydrogenase Complex Deficiency Disease
+MTG_Sncg	0.869296802322408	C0687132	heavy drinking
+MTG_Sst	0.829282606802909	C0265261	Multiple pterygium syndrome
+MTG_Vip	0.865166827714032	C0745744	End Stage Liver Disease

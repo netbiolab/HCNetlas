@@ -1,0 +1,1641 @@
+CellCount	Count	Group	Organ_Celltype
+21	1942	NodeCount	BLD_ABCs
+7	2095	NodeCount	BLD_AlveolarMacrophage
+29	4785	NodeCount	BLD_basophil
+12849	5138	NodeCount	BLD_ClassicalMonocyte
+6	2074	NodeCount	BLD_Cycling
+215	1890	NodeCount	BLD_Cycling T&NK
+14	1431	NodeCount	BLD_DC1
+100	1210	NodeCount	BLD_DC2
+26	3945	NodeCount	BLD_dendritic_cell
+10397	1744	NodeCount	BLD_Erythrocyte
+1	1335	NodeCount	BLD_Erythroid
+2	2305	NodeCount	BLD_granulocyte
+65	5154	NodeCount	BLD_hematopoietic_stem_cell
+15	2413	NodeCount	BLD_ILC3
+6	2087	NodeCount	BLD_IntermediateMacrophage
+488	3209	NodeCount	BLD_Macrophage
+107	2298	NodeCount	BLD_MAIT
+22	2311	NodeCount	BLD_MastCell
+163	2899	NodeCount	BLD_Megakaryocytes
+964	4424	NodeCount	BLD_MemoryBcell
+229	2575	NodeCount	BLD_MNP_T_doublet
+8435	5893	NodeCount	BLD_Monocyte
+3	2907	NodeCount	BLD_myeloid_progenitor
+2273	4071	NodeCount	BLD_NaiveBcell
+8378	3527	NodeCount	BLD_Neutrophil
+2871	4391	NodeCount	BLD_NK
+3539	4235	NodeCount	BLD_NK_CD16+
+445	3194	NodeCount	BLD_NK_CD56bright_CD16-
+499	3951	NodeCount	BLD_NKT
+8	3081	NodeCount	BLD_non-ClassicalMonocyte
+236	2250	NodeCount	BLD_Nonclassical monocytes
+43	2204	NodeCount	BLD_pDC
+10	3724	NodeCount	BLD_plasmablast
+35	1097	NodeCount	BLD_Plasmablasts
+551	6723	NodeCount	BLD_PlasmaCell
+204	3999	NodeCount	BLD_platelet
+61	1839	NodeCount	BLD_Progenitor
+2370	5129	NodeCount	BLD_T_CD4
+270	4657	NodeCount	BLD_T_CD4_CD8
+2706	4803	NodeCount	BLD_T_CD8
+62	2043	NodeCount	BLD_T/B doublets
+31	3533	NodeCount	BLD_Tcell
+4331	2369	NodeCount	BLD_Tem_CD4
+1983	3709	NodeCount	BLD_Temra_CD8
+111	2351	NodeCount	BLD_Tfh
+47	2366	NodeCount	BLD_Tgd_CRTAM+
+857	4632	NodeCount	BLD_Tmemory_CD4_alpha-beta
+6609	3148	NodeCount	BLD_Tnaive_CM_CD4
+1182	2913	NodeCount	BLD_Tnaive_CM_CD8
+403	3702	NodeCount	BLD_Tnaive_thymus-derived_CD4
+798	2610	NodeCount	BLD_Treg
+635	3015	NodeCount	BLD_Trm_em_CD8
+9	1883	NodeCount	BLD_Trm_gut_CD8
+2	1764	NodeCount	BLD_Trm_Tgd
+35	2162	NodeCount	BLD_Trm_Th1_Th17
+237	4581	NodeCount	BLR_Bcell
+17	2680	NodeCount	BLR_dendritic_cell
+5102	6538	NodeCount	BLR_Macrophage
+924	3653	NodeCount	BLR_masTcell
+502	5787	NodeCount	BLR_NK
+1046	5125	NodeCount	BLR_PlasmaCell
+2914	3935	NodeCount	BLR_Tcell
+77	2107	NodeCount	BMA_ABCs
+19	2218	NodeCount	BMA_AlveolarMacrophage
+5032	2692	NodeCount	BMA_ClassicalMonocyte
+848	2175	NodeCount	BMA_Cycling
+798	2562	NodeCount	BMA_Cycling T&NK
+51	1304	NodeCount	BMA_DC1
+149	1117	NodeCount	BMA_DC2
+86	2544	NodeCount	BMA_Erythrocyte
+413	2269	NodeCount	BMA_Erythroid
+670	8018	NodeCount	BMA_erythroid_progenitor
+36	2901	NodeCount	BMA_ErythrophagocyticMacrophage
+8	1691	NodeCount	BMA_GC_B (I)
+781	7607	NodeCount	BMA_granulocyte
+435	6718	NodeCount	BMA_hematopoietic_stem_cell
+31	2289	NodeCount	BMA_ILC3
+25	1895	NodeCount	BMA_IntermediateMacrophage
+5	1841	NodeCount	BMA_Intestinal macrophages
+264	3627	NodeCount	BMA_Macrophage
+427	2617	NodeCount	BMA_MAIT
+86	2593	NodeCount	BMA_MastCell
+108	2517	NodeCount	BMA_Megakaryocytes
+896	3611	NodeCount	BMA_MemoryBcell
+245	2236	NodeCount	BMA_MNP_T_doublet
+9	2068	NodeCount	BMA_MNP/B doublets
+1073	7069	NodeCount	BMA_Monocyte
+254	7982	NodeCount	BMA_myeloid_progenitor
+861	4179	NodeCount	BMA_NaiveBcell
+2573	4364	NodeCount	BMA_Neutrophil
+470	4032	NodeCount	BMA_NK
+7394	4527	NodeCount	BMA_NK_CD16+
+832	3333	NodeCount	BMA_NK_CD56bright_CD16-
+586	1881	NodeCount	BMA_Nonclassical monocytes
+374	2254	NodeCount	BMA_pDC
+175	1171	NodeCount	BMA_Plasmablasts
+725	5028	NodeCount	BMA_PlasmaCell
+72	3457	NodeCount	BMA_Pre-B
+37	2947	NodeCount	BMA_Pro-B
+1312	2486	NodeCount	BMA_Progenitor
+1689	5139	NodeCount	BMA_T_CD4
+301	5214	NodeCount	BMA_T_CD4_CD8
+842	3947	NodeCount	BMA_T_CD8
+50	1957	NodeCount	BMA_T/B doublets
+2637	2273	NodeCount	BMA_Tem_CD4
+6684	3800	NodeCount	BMA_Temra_CD8
+267	2636	NodeCount	BMA_Tfh
+1028	3295	NodeCount	BMA_Tgd_CRTAM+
+4410	2987	NodeCount	BMA_Tnaive_CM_CD4
+180	2787	NodeCount	BMA_Tnaive_CM_CD4_activated
+629	2674	NodeCount	BMA_Tnaive_CM_CD8
+435	2512	NodeCount	BMA_Treg
+2895	3532	NodeCount	BMA_Trm_em_CD8
+63	2473	NodeCount	BMA_Trm_gut_CD8
+167	2468	NodeCount	BMA_Trm_Th1_Th17
+2	997	NodeCount	CAE_AlveolarMacrophage
+1	772	NodeCount	CAE_ClassicalMonocyte
+1	579	NodeCount	CAE_Cycling
+1	529	NodeCount	CAE_Cycling T&NK
+8	2078	NodeCount	CAE_DC2
+3	1461	NodeCount	CAE_ErythrophagocyticMacrophage
+7	1927	NodeCount	CAE_GC_B (I)
+5	1935	NodeCount	CAE_GC_B (II)
+2	1743	NodeCount	CAE_ILC3
+2	1755	NodeCount	CAE_Intestinal macrophages
+3	1905	NodeCount	CAE_MAIT
+13	2657	NodeCount	CAE_MastCell
+9	1972	NodeCount	CAE_MemoryBcell
+1	472	NodeCount	CAE_MNP/B doublets
+2	1781	NodeCount	CAE_NaiveBcell
+1	1470	NodeCount	CAE_NK_CD16+
+1	1465	NodeCount	CAE_NK_CD56bright_CD16-
+2	1429	NodeCount	CAE_Plasmablasts
+175	1002	NodeCount	CAE_PlasmaCell
+27	3040	NodeCount	CAE_T_CD4_CD8
+5	1884	NodeCount	CAE_Tem_CD4
+7	2412	NodeCount	CAE_Temra_CD8
+4	2105	NodeCount	CAE_Tfh
+4	1994	NodeCount	CAE_Tgd_CRTAM+
+5	1841	NodeCount	CAE_Tnaive_CM_CD4
+1	1359	NodeCount	CAE_Tnaive_CM_CD8
+7	2007	NodeCount	CAE_Treg
+5	2095	NodeCount	CAE_Trm_em_CD8
+58	2582	NodeCount	CAE_Trm_gut_CD8
+52	2478	NodeCount	CAE_Trm_Tgd
+19	2158	NodeCount	CAE_Trm_Th1_Th17
+2	892	NodeCount	DUO_AlveolarMacrophage
+6	2223	NodeCount	DUO_ClassicalMonocyte
+2	1678	NodeCount	DUO_Cycling T&NK
+2	864	NodeCount	DUO_DC1
+11	2406	NodeCount	DUO_DC2
+38	3258	NodeCount	DUO_ErythrophagocyticMacrophage
+2	1762	NodeCount	DUO_GC_B (I)
+2	1309	NodeCount	DUO_ILC3
+1	1526	NodeCount	DUO_IntermediateMacrophage
+1	1552	NodeCount	DUO_Intestinal macrophages
+1	1397	NodeCount	DUO_MAIT
+8	2239	NodeCount	DUO_MastCell
+7	1987	NodeCount	DUO_MemoryBcell
+5	2133	NodeCount	DUO_MNP_T_doublet
+6	1940	NodeCount	DUO_MNP/B doublets
+2	1862	NodeCount	DUO_NK_CD16+
+3	1931	NodeCount	DUO_NK_CD56bright_CD16-
+1	1170	NodeCount	DUO_Nonclassical monocytes
+2	1024	NodeCount	DUO_Plasmablasts
+14	1918	NodeCount	DUO_PlasmaCell
+77	3328	NodeCount	DUO_T_CD4_CD8
+120	3300	NodeCount	DUO_T/B doublets
+6	2098	NodeCount	DUO_Tem_CD4
+24	2622	NodeCount	DUO_Temra_CD8
+9	2441	NodeCount	DUO_Tfh
+1	466	NodeCount	DUO_Tnaive_CM_CD8
+5	2146	NodeCount	DUO_Trm_em_CD8
+225	3004	NodeCount	DUO_Trm_gut_CD8
+15	2166	NodeCount	DUO_Trm_Tgd
+166	3004	NodeCount	DUO_Trm_Th1_Th17
+75	2941	NodeCount	Eye_Bcell
+152	3168	NodeCount	Eye_dendritic_cell
+27	1703	NodeCount	Eye_erythroid_lineage_cell
+100	4985	NodeCount	Eye_Macrophage
+4	2109	NodeCount	Eye_masTcell
+163	5034	NodeCount	Eye_microglial_cell
+41	3695	NodeCount	Eye_Monocyte
+43	3515	NodeCount	Eye_PlasmaCell
+14	3154	NodeCount	Eye_T_CD4
+3	2437	NodeCount	Eye_T_CD8
+122	2993	NodeCount	Eye_Tcell
+5	2194	NodeCount	FAT_leucocyte
+2717	8236	NodeCount	FAT_Macrophage
+1	923	NodeCount	FAT_masTcell
+1311	7777	NodeCount	FAT_MSC
+440	3621	NodeCount	FAT_Neutrophil
+467	3830	NodeCount	FAT_NK
+24	4293	NodeCount	FAT_PlasmaCell
+1601	4329	NodeCount	FAT_Tcell
+48	3339	NodeCount	Heart_Macrophage
+1	550	NodeCount	ILE_AlveolarMacrophage
+1	1285	NodeCount	ILE_ClassicalMonocyte
+2	1526	NodeCount	ILE_Cycling
+5	1597	NodeCount	ILE_Cycling T&NK
+2	1228	NodeCount	ILE_DC1
+8	2273	NodeCount	ILE_DC2
+20	2881	NodeCount	ILE_ErythrophagocyticMacrophage
+7	1887	NodeCount	ILE_GC_B (I)
+4	1678	NodeCount	ILE_GC_B (II)
+2	1665	NodeCount	ILE_ILC3
+1	894	NodeCount	ILE_Intestinal macrophages
+3	1791	NodeCount	ILE_MAIT
+2	1499	NodeCount	ILE_MastCell
+98	2783	NodeCount	ILE_MemoryBcell
+7	2144	NodeCount	ILE_MNP/B doublets
+22	2364	NodeCount	ILE_NaiveBcell
+1	1220	NodeCount	ILE_NK_CD56bright_CD16-
+1	1527	NodeCount	ILE_Nonclassical monocytes
+1	473	NodeCount	ILE_Plasmablasts
+15	1706	NodeCount	ILE_PlasmaCell
+50	3658	NodeCount	ILE_T_CD4_CD8
+5	2015	NodeCount	ILE_Tem_CD4
+8	2123	NodeCount	ILE_Temra_CD8
+7	2156	NodeCount	ILE_Tfh
+3	1853	NodeCount	ILE_Tgd_CRTAM+
+3	1677	NodeCount	ILE_Tnaive_CM_CD4
+4	2130	NodeCount	ILE_Treg
+13	2330	NodeCount	ILE_Trm_em_CD8
+312	2838	NodeCount	ILE_Trm_gut_CD8
+119	2607	NodeCount	ILE_Trm_Tgd
+163	2883	NodeCount	ILE_Trm_Th1_Th17
+2	1645	NodeCount	JEJEPI_ABCs
+22	1563	NodeCount	JEJEPI_AlveolarMacrophage
+26	2346	NodeCount	JEJEPI_ClassicalMonocyte
+1	1350	NodeCount	JEJEPI_Cycling
+43	2214	NodeCount	JEJEPI_Cycling T&NK
+18	2496	NodeCount	JEJEPI_DC1
+25	2082	NodeCount	JEJEPI_DC2
+56	3461	NodeCount	JEJEPI_ErythrophagocyticMacrophage
+2	1326	NodeCount	JEJEPI_GC_B (I)
+1	1584	NodeCount	JEJEPI_GC_B (II)
+28	2503	NodeCount	JEJEPI_ILC3
+1	1503	NodeCount	JEJEPI_IntermediateMacrophage
+11	1936	NodeCount	JEJEPI_Intestinal macrophages
+54	2859	NodeCount	JEJEPI_MAIT
+59	2599	NodeCount	JEJEPI_MastCell
+3	1654	NodeCount	JEJEPI_Megakaryocytes
+43	2433	NodeCount	JEJEPI_MemoryBcell
+5	1844	NodeCount	JEJEPI_migDC
+95	2958	NodeCount	JEJEPI_MNP_T_doublet
+6	2235	NodeCount	JEJEPI_MNP/B doublets
+59	3428	NodeCount	JEJEPI_NaiveBcell
+27	2614	NodeCount	JEJEPI_NK_CD16+
+99	3180	NodeCount	JEJEPI_NK_CD56bright_CD16-
+8	1914	NodeCount	JEJEPI_Nonclassical monocytes
+2	1455	NodeCount	JEJEPI_pDC
+8	1142	NodeCount	JEJEPI_PlasmaCell
+1	1241	NodeCount	JEJEPI_Progenitor
+985	6308	NodeCount	JEJEPI_T_CD4_CD8
+59	3066	NodeCount	JEJEPI_T/B doublets
+86	2964	NodeCount	JEJEPI_Tem_CD4
+277	4911	NodeCount	JEJEPI_Temra_CD8
+22	2923	NodeCount	JEJEPI_Tfh
+6	2161	NodeCount	JEJEPI_Tgd_CRTAM+
+308	4109	NodeCount	JEJEPI_Tnaive_CM_CD4
+1	435	NodeCount	JEJEPI_Tnaive_CM_CD4_activated
+12	2544	NodeCount	JEJEPI_Tnaive_CM_CD8
+44	3000	NodeCount	JEJEPI_Treg
+60	3024	NodeCount	JEJEPI_Trm_em_CD8
+15907	4742	NodeCount	JEJEPI_Trm_gut_CD8
+5282	4398	NodeCount	JEJEPI_Trm_Tgd
+3333	4153	NodeCount	JEJEPI_Trm_Th1_Th17
+3	1826	NodeCount	JEJLP_ABCs
+13	2206	NodeCount	JEJLP_AlveolarMacrophage
+59	2348	NodeCount	JEJLP_ClassicalMonocyte
+25	1559	NodeCount	JEJLP_Cycling
+19	2066	NodeCount	JEJLP_Cycling T&NK
+44	1505	NodeCount	JEJLP_DC1
+32	1813	NodeCount	JEJLP_DC2
+94	3483	NodeCount	JEJLP_ErythrophagocyticMacrophage
+86	2860	NodeCount	JEJLP_ILC3
+1	1375	NodeCount	JEJLP_IntermediateMacrophage
+476	2213	NodeCount	JEJLP_Intestinal macrophages
+45	2741	NodeCount	JEJLP_MAIT
+2123	3766	NodeCount	JEJLP_MastCell
+67	2572	NodeCount	JEJLP_MemoryBcell
+8	2163	NodeCount	JEJLP_migDC
+77	2855	NodeCount	JEJLP_MNP_T_doublet
+6	2020	NodeCount	JEJLP_MNP/B doublets
+16	2640	NodeCount	JEJLP_NaiveBcell
+71	2731	NodeCount	JEJLP_NK_CD16+
+72	2733	NodeCount	JEJLP_NK_CD56bright_CD16-
+12	1834	NodeCount	JEJLP_Nonclassical monocytes
+4	1431	NodeCount	JEJLP_pDC
+1	1393	NodeCount	JEJLP_Plasmablasts
+2942	1289	NodeCount	JEJLP_PlasmaCell
+2	1563	NodeCount	JEJLP_Progenitor
+579	5672	NodeCount	JEJLP_T_CD4_CD8
+92	2110	NodeCount	JEJLP_T/B doublets
+41	2695	NodeCount	JEJLP_Tem_CD4
+130	3781	NodeCount	JEJLP_Temra_CD8
+22	2469	NodeCount	JEJLP_Tfh
+24	2447	NodeCount	JEJLP_Tgd_CRTAM+
+66	3127	NodeCount	JEJLP_Tnaive_CM_CD4
+4	1957	NodeCount	JEJLP_Tnaive_CM_CD4_activated
+3	1705	NodeCount	JEJLP_Tnaive_CM_CD8
+68	2595	NodeCount	JEJLP_Treg
+295	3324	NodeCount	JEJLP_Trm_em_CD8
+7072	4103	NodeCount	JEJLP_Trm_gut_CD8
+1294	3806	NodeCount	JEJLP_Trm_Tgd
+7699	4340	NodeCount	JEJLP_Trm_Th1_Th17
+274	3591	NodeCount	Kidney_Bcell
+315	4843	NodeCount	Kidney_Macrophage
+97	3439	NodeCount	Kidney_NK
+149	3293	NodeCount	Kidney_T_CD4
+183	4157	NodeCount	Kidney_T_CD8
+497	3573	NodeCount	LARITN_Bcell
+38	2803	NodeCount	LARITN_masTcell
+543	4734	NodeCount	LARITN_Monocyte
+22	3264	NodeCount	LARITN_Neutrophil
+330	4532	NodeCount	LARITN_PlasmaCell
+2872	4350	NodeCount	LARITN_T_CD4
+2146	4033	NodeCount	LARITN_T_CD8
+31	2399	NodeCount	LIV_ABCs
+11	2285	NodeCount	LIV_AlveolarMacrophage
+1495	3071	NodeCount	LIV_ClassicalMonocyte
+16	2544	NodeCount	LIV_Cycling
+142	2780	NodeCount	LIV_Cycling T&NK
+32	1761	NodeCount	LIV_DC1
+92	2163	NodeCount	LIV_DC2
+32	3269	NodeCount	LIV_dendritic_cell
+106	3111	NodeCount	LIV_Erythrocyte
+5	1767	NodeCount	LIV_Erythroid
+433	3760	NodeCount	LIV_ErythrophagocyticMacrophage
+1	1461	NodeCount	LIV_GC_B (I)
+9	2236	NodeCount	LIV_ILC3
+38	2313	NodeCount	LIV_IntermediateMacrophage
+5	2167	NodeCount	LIV_Intestinal macrophages
+1307	4868	NodeCount	LIV_Macrophage
+2239	4522	NodeCount	LIV_MAIT
+5	2206	NodeCount	LIV_MastCell
+1	657	NodeCount	LIV_Megakaryocytes
+149	3333	NodeCount	LIV_MemoryBcell
+2	1082	NodeCount	LIV_migDC
+92	2306	NodeCount	LIV_MNP_T_doublet
+113	3253	NodeCount	LIV_MNP/B doublets
+606	4147	NodeCount	LIV_Monocyte
+106	3367	NodeCount	LIV_NaiveBcell
+4	1743	NodeCount	LIV_Neutrophil
+231	3917	NodeCount	LIV_NK
+1882	4763	NodeCount	LIV_NK_CD16+
+1705	4258	NodeCount	LIV_NK_CD56bright_CD16-
+458	2485	NodeCount	LIV_Nonclassical monocytes
+25	2643	NodeCount	LIV_pDC
+37	1903	NodeCount	LIV_Plasmablasts
+202	2444	NodeCount	LIV_PlasmaCell
+2	1946	NodeCount	LIV_Pre-B
+9	2177	NodeCount	LIV_Progenitor
+331	5715	NodeCount	LIV_T_CD4_CD8
+28	2244	NodeCount	LIV_T/B doublets
+139	3038	NodeCount	LIV_Tcell
+259	2854	NodeCount	LIV_Tem_CD4
+750	3838	NodeCount	LIV_Temra_CD8
+8	2486	NodeCount	LIV_Tfh
+1036	4279	NodeCount	LIV_Tgd_CRTAM+
+55	2509	NodeCount	LIV_Tnaive_CM_CD4
+7	2346	NodeCount	LIV_Tnaive_CM_CD4_activated
+24	2219	NodeCount	LIV_Tnaive_CM_CD8
+49	2727	NodeCount	LIV_Treg
+806	3928	NodeCount	LIV_Trm_em_CD8
+115	2946	NodeCount	LIV_Trm_gut_CD8
+7	2509	NodeCount	LIV_Trm_Tgd
+587	3545	NodeCount	LIV_Trm_Th1_Th17
+307	2434	NodeCount	LLN_ABCs
+97	2204	NodeCount	LLN_AlveolarMacrophage
+115	2000	NodeCount	LLN_ClassicalMonocyte
+22	1719	NodeCount	LLN_Cycling
+222	1366	NodeCount	LLN_Cycling T&NK
+30	1976	NodeCount	LLN_DC1
+80	1767	NodeCount	LLN_DC2
+1	1615	NodeCount	LLN_Erythroid
+75	2678	NodeCount	LLN_ErythrophagocyticMacrophage
+153	2612	NodeCount	LLN_GC_B (I)
+91	2905	NodeCount	LLN_GC_B (II)
+267	3257	NodeCount	LLN_ILC3
+12	2259	NodeCount	LLN_IntermediateMacrophage
+15	2058	NodeCount	LLN_Intestinal macrophages
+169	2736	NodeCount	LLN_MAIT
+74	2948	NodeCount	LLN_MastCell
+9818	4035	NodeCount	LLN_MemoryBcell
+95	2337	NodeCount	LLN_migDC
+172	2778	NodeCount	LLN_MNP_T_doublet
+151	2884	NodeCount	LLN_MNP/B doublets
+4503	5009	NodeCount	LLN_NaiveBcell
+71	2535	NodeCount	LLN_NK_CD16+
+740	3414	NodeCount	LLN_NK_CD56bright_CD16-
+12	2064	NodeCount	LLN_Nonclassical monocytes
+92	2245	NodeCount	LLN_pDC
+531	1094	NodeCount	LLN_Plasmablasts
+508	1196	NodeCount	LLN_PlasmaCell
+1	1625	NodeCount	LLN_Pro-B
+8	2112	NodeCount	LLN_Progenitor
+1412	5585	NodeCount	LLN_T_CD4_CD8
+365	2873	NodeCount	LLN_T/B doublets
+6696	2784	NodeCount	LLN_Tem_CD4
+131	3308	NodeCount	LLN_Temra_CD8
+7677	3990	NodeCount	LLN_Tfh
+140	2938	NodeCount	LLN_Tgd_CRTAM+
+12551	3909	NodeCount	LLN_Tnaive_CM_CD4
+3094	4226	NodeCount	LLN_Tnaive_CM_CD4_activated
+3653	3383	NodeCount	LLN_Tnaive_CM_CD8
+5806	4229	NodeCount	LLN_Treg
+1655	3991	NodeCount	LLN_Trm_em_CD8
+171	3059	NodeCount	LLN_Trm_gut_CD8
+3	2011	NodeCount	LLN_Trm_Tgd
+861	3109	NodeCount	LLN_Trm_Th1_Th17
+14808	5436	NodeCount	LN_Bcell
+243	4138	NodeCount	LN_ClassicalMonocyte
+201	5881	NodeCount	LN_dendritic_cell
+22	2600	NodeCount	LN_Erythrocyte
+34	4407	NodeCount	LN_hematopoietic_stem_cell
+1906	4075	NodeCount	LN_ILC
+299	4785	NodeCount	LN_intermediate_Monocyte
+1145	6870	NodeCount	LN_Macrophage
+130	3230	NodeCount	LN_masTcell
+2919	4531	NodeCount	LN_MemoryBcell
+1324	3700	NodeCount	LN_NaiveBcell
+107	2541	NodeCount	LN_Neutrophil
+577	3845	NodeCount	LN_NK
+3809	4401	NodeCount	LN_NKT
+28	3163	NodeCount	LN_non-ClassicalMonocyte
+2593	7862	NodeCount	LN_PlasmaCell
+876	5022	NodeCount	LN_regulatory_Tcell
+6791	4737	NodeCount	LN_T_CD4
+5806	4170	NodeCount	LN_T_CD8
+3755	3918	NodeCount	LN_Tcell
+1241	4444	NodeCount	LN_Tmemory_CD4_alpha-beta
+750	3640	NodeCount	LN_Tmemory_CD8_alpha-beta
+1266	3875	NodeCount	LN_Tnaive_thymus-derived_CD4
+10	1892	NodeCount	LNG_ABCs
+16976	1193	NodeCount	LNG_AlveolarMacrophage
+677	4447	NodeCount	LNG_basophil
+82	2929	NodeCount	LNG_Bcell
+4770	2944	NodeCount	LNG_ClassicalMonocyte
+200	1653	NodeCount	LNG_Cycling
+216	2542	NodeCount	LNG_Cycling T&NK
+79	1517	NodeCount	LNG_DC1
+329	1662	NodeCount	LNG_DC2
+295	4394	NodeCount	LNG_dendritic_cell
+40	2526	NodeCount	LNG_ErythrophagocyticMacrophage
+4	2062	NodeCount	LNG_GC_B (I)
+40	2422	NodeCount	LNG_ILC3
+252	3504	NodeCount	LNG_intermediate_Monocyte
+2139	2772	NodeCount	LNG_IntermediateMacrophage
+42	2295	NodeCount	LNG_Intestinal macrophages
+12034	7288	NodeCount	LNG_Macrophage
+124	2690	NodeCount	LNG_MAIT
+823	3043	NodeCount	LNG_MastCell
+133	2585	NodeCount	LNG_MemoryBcell
+84	2041	NodeCount	LNG_migDC
+1313	1906	NodeCount	LNG_MNP_T_doublet
+10	2217	NodeCount	LNG_MNP/B doublets
+79	3018	NodeCount	LNG_NaiveBcell
+138	2986	NodeCount	LNG_Neutrophil
+126	3140	NodeCount	LNG_NK
+2771	4276	NodeCount	LNG_NK_CD16+
+462	3356	NodeCount	LNG_NK_CD56bright_CD16-
+999	4408	NodeCount	LNG_non-ClassicalMonocyte
+752	1893	NodeCount	LNG_Nonclassical monocytes
+63	2049	NodeCount	LNG_pDC
+36	1402	NodeCount	LNG_Plasmablasts
+158	3788	NodeCount	LNG_PlasmaCell
+18	1732	NodeCount	LNG_Progenitor
+656	3192	NodeCount	LNG_T_CD4
+248	4663	NodeCount	LNG_T_CD4_CD8
+603	3700	NodeCount	LNG_T_CD8
+24	2586	NodeCount	LNG_T/B doublets
+947	2480	NodeCount	LNG_Tem_CD4
+945	3606	NodeCount	LNG_Temra_CD8
+79	2857	NodeCount	LNG_Tfh
+148	2883	NodeCount	LNG_Tgd_CRTAM+
+176	2493	NodeCount	LNG_Tnaive_CM_CD4
+9	2212	NodeCount	LNG_Tnaive_CM_CD4_activated
+39	2101	NodeCount	LNG_Tnaive_CM_CD8
+256	2522	NodeCount	LNG_Treg
+417	3305	NodeCount	LNG_Trm_em_CD8
+82	2914	NodeCount	LNG_Trm_gut_CD8
+17	2306	NodeCount	LNG_Trm_Tgd
+1876	3828	NodeCount	LNG_Trm_Th1_Th17
+32	2556	NodeCount	MG_Bcell
+206	4310	NodeCount	MG_Macrophage
+14	2431	NodeCount	MG_masTcell
+10	2231	NodeCount	MG_NK
+180	4882	NodeCount	MG_PlasmaCell
+2147	3945	NodeCount	MG_Tcell
+49	2509	NodeCount	MLN_ABCs
+17	2765	NodeCount	MLN_AlveolarMacrophage
+28	2600	NodeCount	MLN_ClassicalMonocyte
+3	1653	NodeCount	MLN_Cycling
+38	2037	NodeCount	MLN_Cycling T&NK
+29	2701	NodeCount	MLN_DC1
+55	2704	NodeCount	MLN_DC2
+1	1050	NodeCount	MLN_Erythroid
+213	4115	NodeCount	MLN_ErythrophagocyticMacrophage
+66	2959	NodeCount	MLN_GC_B (I)
+37	2576	NodeCount	MLN_GC_B (II)
+485	4475	NodeCount	MLN_ILC3
+2	1926	NodeCount	MLN_IntermediateMacrophage
+6	2404	NodeCount	MLN_Intestinal macrophages
+136	2927	NodeCount	MLN_MAIT
+9	2460	NodeCount	MLN_MastCell
+3641	4599	NodeCount	MLN_MemoryBcell
+48	2950	NodeCount	MLN_migDC
+47	2719	NodeCount	MLN_MNP_T_doublet
+61	2957	NodeCount	MLN_MNP/B doublets
+1555	4761	NodeCount	MLN_NaiveBcell
+364	3735	NodeCount	MLN_NK_CD16+
+627	3719	NodeCount	MLN_NK_CD56bright_CD16-
+8	2097	NodeCount	MLN_Nonclassical monocytes
+11	1869	NodeCount	MLN_pDC
+12	1499	NodeCount	MLN_Plasmablasts
+37	1732	NodeCount	MLN_PlasmaCell
+10	2389	NodeCount	MLN_Progenitor
+537	5747	NodeCount	MLN_T_CD4_CD8
+104	2362	NodeCount	MLN_T/B doublets
+912	3357	NodeCount	MLN_Tem_CD4
+267	3490	NodeCount	MLN_Temra_CD8
+2672	4740	NodeCount	MLN_Tfh
+149	3286	NodeCount	MLN_Tgd_CRTAM+
+4978	4480	NodeCount	MLN_Tnaive_CM_CD4
+143	2766	NodeCount	MLN_Tnaive_CM_CD4_activated
+1187	3767	NodeCount	MLN_Tnaive_CM_CD8
+2965	4904	NodeCount	MLN_Treg
+759	4032	NodeCount	MLN_Trm_em_CD8
+431	3953	NodeCount	MLN_Trm_gut_CD8
+1	1202	NodeCount	MLN_Trm_Tgd
+497	3871	NodeCount	MLN_Trm_Th1_Th17
+18	1525	NodeCount	MSC_Erythrocyte
+1481	5750	NodeCount	MSC_Macrophage
+17	2381	NodeCount	MSC_masTcell
+44	2479	NodeCount	MSC_NKT
+79	2770	NodeCount	MSC_T_CD4
+48	2606	NodeCount	MSC_T_CD8
+354	3435	NodeCount	MSC_Tcell
+4	1840	NodeCount	OME_ABCs
+24	1930	NodeCount	OME_AlveolarMacrophage
+28	2151	NodeCount	OME_ClassicalMonocyte
+9	2077	NodeCount	OME_Cycling T&NK
+2	1371	NodeCount	OME_DC1
+15	2953	NodeCount	OME_ErythrophagocyticMacrophage
+1	1439	NodeCount	OME_ILC3
+2	1653	NodeCount	OME_IntermediateMacrophage
+10	2581	NodeCount	OME_Intestinal macrophages
+12	2007	NodeCount	OME_MAIT
+3	1795	NodeCount	OME_MastCell
+86	2531	NodeCount	OME_MemoryBcell
+1	1408	NodeCount	OME_migDC
+2	1689	NodeCount	OME_MNP/B doublets
+14	2342	NodeCount	OME_NaiveBcell
+26	2520	NodeCount	OME_NK_CD16+
+7	2149	NodeCount	OME_NK_CD56bright_CD16-
+21	1896	NodeCount	OME_Nonclassical monocytes
+24	3663	NodeCount	OME_T_CD4_CD8
+37	2204	NodeCount	OME_Tem_CD4
+35	2166	NodeCount	OME_Temra_CD8
+26	2464	NodeCount	OME_Tfh
+12	2211	NodeCount	OME_Tgd_CRTAM+
+6	1955	NodeCount	OME_Tnaive_CM_CD4
+5	2047	NodeCount	OME_Tnaive_CM_CD8
+14	2350	NodeCount	OME_Treg
+71	2731	NodeCount	OME_Trm_em_CD8
+4	2029	NodeCount	OME_Trm_gut_CD8
+1	1197	NodeCount	OME_Trm_Tgd
+95	2544	NodeCount	OME_Trm_Th1_Th17
+55	3259	NodeCount	PNC_Bcell
+3	2021	NodeCount	PNC_masTcell
+1804	6854	NodeCount	PNC_Myeloid
+47	2900	NodeCount	PNC_NK
+63	4560	NodeCount	PNC_PlasmaCell
+560	3976	NodeCount	PNC_Tcell
+86	2438	NodeCount	Prostate_erythroid_progenitor
+317	4857	NodeCount	Prostate_Macrophage
+9	2443	NodeCount	Prostate_masTcell
+365	6320	NodeCount	Prostate_Myeloid
+16	2186	NodeCount	Prostate_Neutrophil
+410	3176	NodeCount	Prostate_NKT
+962	3337	NodeCount	Prostate_T_CD8
+586	3769	NodeCount	Prostate_Tcell
+1	1582	NodeCount	SCL_ABCs
+1	1056	NodeCount	SCL_AlveolarMacrophage
+5	2191	NodeCount	SCL_ClassicalMonocyte
+1	1054	NodeCount	SCL_DC2
+2	1623	NodeCount	SCL_ErythrophagocyticMacrophage
+2	1288	NodeCount	SCL_GC_B (I)
+8	1960	NodeCount	SCL_GC_B (II)
+1	1453	NodeCount	SCL_ILC3
+2	1806	NodeCount	SCL_Intestinal macrophages
+16	2304	NodeCount	SCL_MemoryBcell
+17	2441	NodeCount	SCL_NaiveBcell
+1	1608	NodeCount	SCL_NK_CD16+
+5	1509	NodeCount	SCL_PlasmaCell
+5	1954	NodeCount	SCL_T_CD4_CD8
+6	2115	NodeCount	SCL_Temra_CD8
+4	1946	NodeCount	SCL_Tfh
+2	1789	NodeCount	SCL_Tgd_CRTAM+
+4	2040	NodeCount	SCL_Treg
+3	1944	NodeCount	SCL_Trm_em_CD8
+25	2295	NodeCount	SCL_Trm_gut_CD8
+17	2311	NodeCount	SCL_Trm_Tgd
+5	2075	NodeCount	SCL_Trm_Th1_Th17
+81	6888	NodeCount	SG_Bcell
+1761	6349	NodeCount	SG_Macrophage
+2816	5987	NodeCount	SG_MemoryBcell
+426	4849	NodeCount	SG_Monocyte
+1120	4639	NodeCount	SG_NaiveBcell
+115	3284	NodeCount	SG_Neutrophil
+317	4144	NodeCount	SG_NK
+345	5166	NodeCount	SG_PlasmaCell
+1101	4706	NodeCount	SG_T_CD4
+1887	3804	NodeCount	SG_T_CD8
+150	3548	NodeCount	SG_Tcell
+142	4016	NodeCount	Skin_dendritic_cell
+31	3841	NodeCount	Skin_langerhans_cell
+656	4849	NodeCount	Skin_Macrophage
+456	3296	NodeCount	Skin_masTcell
+4	1966	NodeCount	Skin_MemoryBcell
+82	2615	NodeCount	Skin_naive_thymus-derived_T_CD8
+7	1994	NodeCount	Skin_NaiveBcell
+237	3237	NodeCount	Skin_NK
+344	3478	NodeCount	Skin_NKT
+22	3772	NodeCount	Skin_PlasmaCell
+124	3239	NodeCount	Skin_regulatory_Tcell
+56	2611	NodeCount	Skin_T_CD4
+127	3043	NodeCount	Skin_T_CD8
+488	3386	NodeCount	Skin_Tcell
+331	3457	NodeCount	Skin_Tmemory_CD4_alpha-beta
+818	3818	NodeCount	Skin_Tmemory_CD8_alpha-beta
+70	3012	NodeCount	Skin_Tnaive_thymus-derived_CD4
+10	1753	NodeCount	SKM_ABCs
+7	2091	NodeCount	SKM_AlveolarMacrophage
+105	2560	NodeCount	SKM_ClassicalMonocyte
+38	1896	NodeCount	SKM_Cycling T&NK
+2	1832	NodeCount	SKM_DC2
+4	2052	NodeCount	SKM_ErythrophagocyticMacrophage
+5	2003	NodeCount	SKM_IntermediateMacrophage
+4	1927	NodeCount	SKM_MAIT
+7	2193	NodeCount	SKM_Megakaryocytes
+42	2318	NodeCount	SKM_MemoryBcell
+3	1808	NodeCount	SKM_MNP_T_doublet
+7	1962	NodeCount	SKM_NaiveBcell
+120	2761	NodeCount	SKM_NK_CD16+
+14	2368	NodeCount	SKM_NK_CD56bright_CD16-
+71	2146	NodeCount	SKM_Nonclassical monocytes
+2	1844	NodeCount	SKM_pDC
+3	1789	NodeCount	SKM_Plasmablasts
+2	1827	NodeCount	SKM_PlasmaCell
+1	1777	NodeCount	SKM_Progenitor
+8	2681	NodeCount	SKM_T_CD4_CD8
+1	1594	NodeCount	SKM_T/B doublets
+53	2073	NodeCount	SKM_Tem_CD4
+211	2876	NodeCount	SKM_Temra_CD8
+2	1975	NodeCount	SKM_Tfh
+20	2203	NodeCount	SKM_Tgd_CRTAM+
+30	2076	NodeCount	SKM_Tnaive_CM_CD4
+5	2060	NodeCount	SKM_Tnaive_CM_CD8
+7	1942	NodeCount	SKM_Treg
+40	2369	NodeCount	SKM_Trm_em_CD8
+1	1785	NodeCount	SKM_Trm_gut_CD8
+10	2207	NodeCount	SKM_Trm_Th1_Th17
+518	4148	NodeCount	SMITN_Bcell
+65	2697	NodeCount	SMITN_masTcell
+61	3825	NodeCount	SMITN_Monocyte
+64	3772	NodeCount	SMITN_Neutrophil
+303	4568	NodeCount	SMITN_PlasmaCell
+5257	4367	NodeCount	SMITN_T_CD4
+2323	4289	NodeCount	SMITN_T_CD8
+693	2652	NodeCount	SPL_ABCs
+38	2584	NodeCount	SPL_AlveolarMacrophage
+9828	4461	NodeCount	SPL_ClassicalMonocyte
+37	2294	NodeCount	SPL_Cycling
+375	2493	NodeCount	SPL_Cycling T&NK
+53	1976	NodeCount	SPL_DC1
+250	2264	NodeCount	SPL_DC2
+134	4622	NodeCount	SPL_dendritic_cell
+164	3993	NodeCount	SPL_Erythrocyte
+24	2368	NodeCount	SPL_Erythroid
+1071	4024	NodeCount	SPL_ErythrophagocyticMacrophage
+100	2500	NodeCount	SPL_GC_B (I)
+38	2498	NodeCount	SPL_GC_B (II)
+73	5696	NodeCount	SPL_hematopoietic_stem_cell
+114	3540	NodeCount	SPL_ILC
+327	3420	NodeCount	SPL_ILC3
+125	4008	NodeCount	SPL_intermediate_Monocyte
+4	2141	NodeCount	SPL_IntermediateMacrophage
+21	2444	NodeCount	SPL_Intestinal macrophages
+1312	6643	NodeCount	SPL_Macrophage
+1519	3443	NodeCount	SPL_MAIT
+61	2711	NodeCount	SPL_MastCell
+35	2855	NodeCount	SPL_Megakaryocytes
+19878	4812	NodeCount	SPL_MemoryBcell
+19	2331	NodeCount	SPL_migDC
+230	2645	NodeCount	SPL_MNP_T_doublet
+372	2882	NodeCount	SPL_MNP/B doublets
+573	3808	NodeCount	SPL_naive_thymus-derived_T_CD8
+7636	5285	NodeCount	SPL_NaiveBcell
+4408	3473	NodeCount	SPL_Neutrophil
+1950	4460	NodeCount	SPL_NK
+4319	4922	NodeCount	SPL_NK_CD16+
+3891	4016	NodeCount	SPL_NK_CD56bright_CD16-
+1345	4418	NodeCount	SPL_NKT
+254	2670	NodeCount	SPL_Nonclassical monocytes
+97	2612	NodeCount	SPL_pDC
+875	2208	NodeCount	SPL_Plasmablasts
+4978	7526	NodeCount	SPL_PlasmaCell
+18	3106	NodeCount	SPL_platelet
+1	2225	NodeCount	SPL_Pre-B
+1	2155	NodeCount	SPL_Pro-B
+95	2745	NodeCount	SPL_Progenitor
+237	4391	NodeCount	SPL_regulatory_Tcell
+703	6299	NodeCount	SPL_T_CD4_CD8
+41	3788	NodeCount	SPL_T_CD8
+552	2702	NodeCount	SPL_T/B doublets
+3837	3208	NodeCount	SPL_Tem_CD4
+3127	4045	NodeCount	SPL_Temra_CD8
+4371	4395	NodeCount	SPL_Tfh
+2068	4336	NodeCount	SPL_Tgd_CRTAM+
+1662	4161	NodeCount	SPL_Tmemory_CD4_alpha-beta
+3963	4388	NodeCount	SPL_Tmemory_CD8_alpha-beta
+4645	3742	NodeCount	SPL_Tnaive_CM_CD4
+306	3156	NodeCount	SPL_Tnaive_CM_CD4_activated
+982	3287	NodeCount	SPL_Tnaive_CM_CD8
+1160	4405	NodeCount	SPL_Tnaive_thymus-derived_CD4
+1643	3811	NodeCount	SPL_Treg
+4984	4674	NodeCount	SPL_Trm_em_CD8
+1023	3695	NodeCount	SPL_Trm_gut_CD8
+36	2797	NodeCount	SPL_Trm_Tgd
+571	3286	NodeCount	SPL_Trm_Th1_Th17
+1	2268	NodeCount	TCL_ABCs
+1	2127	NodeCount	TCL_AlveolarMacrophage
+1	2301	NodeCount	TCL_ClassicalMonocyte
+1	2494	NodeCount	TCL_Cycling T&NK
+5	2810	NodeCount	TCL_DC2
+3	2611	NodeCount	TCL_ErythrophagocyticMacrophage
+16	2771	NodeCount	TCL_GC_B (I)
+19	2809	NodeCount	TCL_GC_B (II)
+1	2576	NodeCount	TCL_ILC3
+2	2612	NodeCount	TCL_Intestinal macrophages
+3	2718	NodeCount	TCL_MastCell
+12	2790	NodeCount	TCL_MemoryBcell
+10	2843	NodeCount	TCL_NaiveBcell
+1	2582	NodeCount	TCL_NK_CD16+
+3	2753	NodeCount	TCL_NK_CD56bright_CD16-
+60	2529	NodeCount	TCL_PlasmaCell
+14	2752	NodeCount	TCL_T_CD4_CD8
+3	2884	NodeCount	TCL_Tem_CD4
+2	2460	NodeCount	TCL_Temra_CD8
+10	2938	NodeCount	TCL_Tfh
+15	2851	NodeCount	TCL_Treg
+6	2986	NodeCount	TCL_Trm_em_CD8
+21	2865	NodeCount	TCL_Trm_gut_CD8
+41	2996	NodeCount	TCL_Trm_Tgd
+11	2754	NodeCount	TCL_Trm_Th1_Th17
+1919	4806	NodeCount	THY_Bcell
+1	2518	NodeCount	THY_ClassicalMonocyte
+2	2649	NodeCount	THY_Cycling T&NK
+38	4366	NodeCount	THY_dendritic_cell
+985	4436	NodeCount	THY_dn1_thymic_pro-Tcell
+32	4913	NodeCount	THY_dn4_thymocyte
+45	3261	NodeCount	THY_Erythrocyte
+1	2561	NodeCount	THY_GC_B (I)
+2594	5196	NodeCount	THY_ILC
+15	3270	NodeCount	THY_ILC3
+42	3558	NodeCount	THY_immature_natural_killer_cell
+443	6589	NodeCount	THY_Macrophage
+6	2849	NodeCount	THY_MAIT
+10	3163	NodeCount	THY_masTcell
+1882	5429	NodeCount	THY_MemoryBcell
+410	5036	NodeCount	THY_Monocyte
+761	4748	NodeCount	THY_naive_regulatory_Tcell
+876	4765	NodeCount	THY_NaiveBcell
+185	4109	NodeCount	THY_NK
+2	3065	NodeCount	THY_NK_CD16+
+89	3731	NodeCount	THY_NKT
+1529	7672	NodeCount	THY_PlasmaCell
+1	3161	NodeCount	THY_Progenitor
+7604	6003	NodeCount	THY_T_CD4
+60	4336	NodeCount	THY_T_CD4_CD8
+850	4681	NodeCount	THY_T_CD8
+398	4427	NodeCount	THY_t_follicular_helper_cell
+1	3064	NodeCount	THY_T/B doublets
+14	3177	NodeCount	THY_Tem_CD4
+25	3299	NodeCount	THY_Temra_CD8
+2	3181	NodeCount	THY_Tfh
+3	3240	NodeCount	THY_Tgd_CRTAM+
+553	4229	NodeCount	THY_thymocyte
+1788	5093	NodeCount	THY_Thymocyte_DN3
+23	3531	NodeCount	THY_Tnaive_CM_CD4
+4	3602	NodeCount	THY_Tnaive_CM_CD4_activated
+78	3972	NodeCount	THY_Tnaive_CM_CD8
+28	3442	NodeCount	THY_Treg
+25	3537	NodeCount	THY_Trm_em_CD8
+4	3383	NodeCount	THY_Trm_Th1_Th17
+1614	5926	NodeCount	Tongue_immune_cell
+459	4884	NodeCount	Trachea_Bcell
+6	3587	NodeCount	Trachea_double-positive_alpha-beta_thymocyte
+531	6608	NodeCount	Trachea_Macrophage
+61	4273	NodeCount	Trachea_masTcell
+727	4615	NodeCount	Trachea_Neutrophil
+115	5542	NodeCount	Trachea_PlasmaCell
+65	4562	NodeCount	Trachea_T_CD4
+464	4702	NodeCount	Trachea_T_CD8
+130	4706	NodeCount	Trachea_Tcell
+10	3922	NodeCount	Uterus_Bcell
+17	4603	NodeCount	Uterus_immune_cell
+326	6072	NodeCount	Uterus_Macrophage
+49	4243	NodeCount	Uterus_NK
+513	4998	NodeCount	Uterus_Tcell
+20	4200	NodeCount	VAS_Bcell
+64	4546	NodeCount	VAS_Erythrocyte
+3054	8863	NodeCount	VAS_Macrophage
+93	4836	NodeCount	VAS_masTcell
+102	4674	NodeCount	VAS_NK
+33	5145	NodeCount	VAS_PlasmaCell
+457	5451	NodeCount	VAS_Tcell
+21	7505	EdgeCount	BLD_ABCs
+7	9838	EdgeCount	BLD_AlveolarMacrophage
+29	58395	EdgeCount	BLD_basophil
+12849	49283	EdgeCount	BLD_ClassicalMonocyte
+6	9766	EdgeCount	BLD_Cycling
+215	14963	EdgeCount	BLD_Cycling T&NK
+14	3931	EdgeCount	BLD_DC1
+100	3237	EdgeCount	BLD_DC2
+26	29720	EdgeCount	BLD_dendritic_cell
+10397	7372	EdgeCount	BLD_Erythrocyte
+1	7209	EdgeCount	BLD_Erythroid
+2	16661	EdgeCount	BLD_granulocyte
+65	55776	EdgeCount	BLD_hematopoietic_stem_cell
+15	11282	EdgeCount	BLD_ILC3
+6	10463	EdgeCount	BLD_IntermediateMacrophage
+488	22820	EdgeCount	BLD_Macrophage
+107	9945	EdgeCount	BLD_MAIT
+22	9884	EdgeCount	BLD_MastCell
+163	15772	EdgeCount	BLD_Megakaryocytes
+964	33811	EdgeCount	BLD_MemoryBcell
+229	12707	EdgeCount	BLD_MNP_T_doublet
+8435	66077	EdgeCount	BLD_Monocyte
+3	22119	EdgeCount	BLD_myeloid_progenitor
+2273	27717	EdgeCount	BLD_NaiveBcell
+8378	23876	EdgeCount	BLD_Neutrophil
+2871	30571	EdgeCount	BLD_NK
+3539	28902	EdgeCount	BLD_NK_CD16+
+445	17474	EdgeCount	BLD_NK_CD56bright_CD16-
+499	26555	EdgeCount	BLD_NKT
+8	25034	EdgeCount	BLD_non-ClassicalMonocyte
+236	11044	EdgeCount	BLD_Nonclassical monocytes
+43	7826	EdgeCount	BLD_pDC
+10	48426	EdgeCount	BLD_plasmablast
+35	9796	EdgeCount	BLD_Plasmablasts
+551	109391	EdgeCount	BLD_PlasmaCell
+204	33904	EdgeCount	BLD_platelet
+61	6153	EdgeCount	BLD_Progenitor
+2370	52737	EdgeCount	BLD_T_CD4
+270	39030	EdgeCount	BLD_T_CD4_CD8
+2706	40061	EdgeCount	BLD_T_CD8
+62	8533	EdgeCount	BLD_T/B doublets
+31	27185	EdgeCount	BLD_Tcell
+4331	9416	EdgeCount	BLD_Tem_CD4
+1983	23075	EdgeCount	BLD_Temra_CD8
+111	8853	EdgeCount	BLD_Tfh
+47	10196	EdgeCount	BLD_Tgd_CRTAM+
+857	40252	EdgeCount	BLD_Tmemory_CD4_alpha-beta
+6609	15515	EdgeCount	BLD_Tnaive_CM_CD4
+1182	13246	EdgeCount	BLD_Tnaive_CM_CD8
+403	25357	EdgeCount	BLD_Tnaive_thymus-derived_CD4
+798	11786	EdgeCount	BLD_Treg
+635	15277	EdgeCount	BLD_Trm_em_CD8
+9	7331	EdgeCount	BLD_Trm_gut_CD8
+2	6810	EdgeCount	BLD_Trm_Tgd
+35	9425	EdgeCount	BLD_Trm_Th1_Th17
+237	58271	EdgeCount	BLR_Bcell
+17	17108	EdgeCount	BLR_dendritic_cell
+5102	85438	EdgeCount	BLR_Macrophage
+924	27245	EdgeCount	BLR_masTcell
+502	88159	EdgeCount	BLR_NK
+1046	52375	EdgeCount	BLR_PlasmaCell
+2914	31243	EdgeCount	BLR_Tcell
+77	8230	EdgeCount	BMA_ABCs
+19	10698	EdgeCount	BMA_AlveolarMacrophage
+5032	14550	EdgeCount	BMA_ClassicalMonocyte
+848	16299	EdgeCount	BMA_Cycling
+798	20835	EdgeCount	BMA_Cycling T&NK
+51	3456	EdgeCount	BMA_DC1
+149	2987	EdgeCount	BMA_DC2
+86	13989	EdgeCount	BMA_Erythrocyte
+413	19381	EdgeCount	BMA_Erythroid
+670	137667	EdgeCount	BMA_erythroid_progenitor
+36	24061	EdgeCount	BMA_ErythrophagocyticMacrophage
+8	12001	EdgeCount	BMA_GC_B (I)
+781	125553	EdgeCount	BMA_granulocyte
+435	92055	EdgeCount	BMA_hematopoietic_stem_cell
+31	9039	EdgeCount	BMA_ILC3
+25	8732	EdgeCount	BMA_IntermediateMacrophage
+5	8111	EdgeCount	BMA_Intestinal macrophages
+264	30459	EdgeCount	BMA_Macrophage
+427	12082	EdgeCount	BMA_MAIT
+86	16635	EdgeCount	BMA_MastCell
+108	16419	EdgeCount	BMA_Megakaryocytes
+896	21239	EdgeCount	BMA_MemoryBcell
+245	11623	EdgeCount	BMA_MNP_T_doublet
+9	9054	EdgeCount	BMA_MNP/B doublets
+1073	92133	EdgeCount	BMA_Monocyte
+254	133861	EdgeCount	BMA_myeloid_progenitor
+861	28259	EdgeCount	BMA_NaiveBcell
+2573	35291	EdgeCount	BMA_Neutrophil
+470	32918	EdgeCount	BMA_NK
+7394	33194	EdgeCount	BMA_NK_CD16+
+832	18186	EdgeCount	BMA_NK_CD56bright_CD16-
+586	8354	EdgeCount	BMA_Nonclassical monocytes
+374	8410	EdgeCount	BMA_pDC
+175	9840	EdgeCount	BMA_Plasmablasts
+725	57673	EdgeCount	BMA_PlasmaCell
+72	21383	EdgeCount	BMA_Pre-B
+37	15017	EdgeCount	BMA_Pro-B
+1312	17198	EdgeCount	BMA_Progenitor
+1689	46479	EdgeCount	BMA_T_CD4
+301	50702	EdgeCount	BMA_T_CD4_CD8
+842	26877	EdgeCount	BMA_T_CD8
+50	10680	EdgeCount	BMA_T/B doublets
+2637	8564	EdgeCount	BMA_Tem_CD4
+6684	24370	EdgeCount	BMA_Temra_CD8
+267	11058	EdgeCount	BMA_Tfh
+1028	18213	EdgeCount	BMA_Tgd_CRTAM+
+4410	14462	EdgeCount	BMA_Tnaive_CM_CD4
+180	13354	EdgeCount	BMA_Tnaive_CM_CD4_activated
+629	11544	EdgeCount	BMA_Tnaive_CM_CD8
+435	11312	EdgeCount	BMA_Treg
+2895	21045	EdgeCount	BMA_Trm_em_CD8
+63	11630	EdgeCount	BMA_Trm_gut_CD8
+167	11196	EdgeCount	BMA_Trm_Th1_Th17
+2	4430	EdgeCount	CAE_AlveolarMacrophage
+1	2313	EdgeCount	CAE_ClassicalMonocyte
+1	2041	EdgeCount	CAE_Cycling
+1	2341	EdgeCount	CAE_Cycling T&NK
+8	10055	EdgeCount	CAE_DC2
+3	8504	EdgeCount	CAE_ErythrophagocyticMacrophage
+7	14261	EdgeCount	CAE_GC_B (I)
+5	9146	EdgeCount	CAE_GC_B (II)
+2	6873	EdgeCount	CAE_ILC3
+2	7742	EdgeCount	CAE_Intestinal macrophages
+3	9130	EdgeCount	CAE_MAIT
+13	14701	EdgeCount	CAE_MastCell
+9	7734	EdgeCount	CAE_MemoryBcell
+1	1809	EdgeCount	CAE_MNP/B doublets
+2	7454	EdgeCount	CAE_NaiveBcell
+1	5646	EdgeCount	CAE_NK_CD16+
+1	5829	EdgeCount	CAE_NK_CD56bright_CD16-
+2	6756	EdgeCount	CAE_Plasmablasts
+175	2539	EdgeCount	CAE_PlasmaCell
+27	18797	EdgeCount	CAE_T_CD4_CD8
+5	7172	EdgeCount	CAE_Tem_CD4
+7	14455	EdgeCount	CAE_Temra_CD8
+4	9879	EdgeCount	CAE_Tfh
+4	8643	EdgeCount	CAE_Tgd_CRTAM+
+5	7584	EdgeCount	CAE_Tnaive_CM_CD4
+1	4711	EdgeCount	CAE_Tnaive_CM_CD8
+7	8582	EdgeCount	CAE_Treg
+5	9469	EdgeCount	CAE_Trm_em_CD8
+58	12695	EdgeCount	CAE_Trm_gut_CD8
+52	12429	EdgeCount	CAE_Trm_Tgd
+19	9641	EdgeCount	CAE_Trm_Th1_Th17
+2	4627	EdgeCount	DUO_AlveolarMacrophage
+6	12735	EdgeCount	DUO_ClassicalMonocyte
+2	11645	EdgeCount	DUO_Cycling T&NK
+2	4098	EdgeCount	DUO_DC1
+11	14819	EdgeCount	DUO_DC2
+38	26376	EdgeCount	DUO_ErythrophagocyticMacrophage
+2	12688	EdgeCount	DUO_GC_B (I)
+2	4972	EdgeCount	DUO_ILC3
+1	5948	EdgeCount	DUO_IntermediateMacrophage
+1	5777	EdgeCount	DUO_Intestinal macrophages
+1	5455	EdgeCount	DUO_MAIT
+8	9341	EdgeCount	DUO_MastCell
+7	12337	EdgeCount	DUO_MemoryBcell
+5	11512	EdgeCount	DUO_MNP_T_doublet
+6	10791	EdgeCount	DUO_MNP/B doublets
+2	8585	EdgeCount	DUO_NK_CD16+
+3	8507	EdgeCount	DUO_NK_CD56bright_CD16-
+1	4065	EdgeCount	DUO_Nonclassical monocytes
+2	5710	EdgeCount	DUO_Plasmablasts
+14	8999	EdgeCount	DUO_PlasmaCell
+77	21244	EdgeCount	DUO_T_CD4_CD8
+120	20444	EdgeCount	DUO_T/B doublets
+6	10014	EdgeCount	DUO_Tem_CD4
+24	14238	EdgeCount	DUO_Temra_CD8
+9	12481	EdgeCount	DUO_Tfh
+1	1115	EdgeCount	DUO_Tnaive_CM_CD8
+5	10578	EdgeCount	DUO_Trm_em_CD8
+225	16243	EdgeCount	DUO_Trm_gut_CD8
+15	9453	EdgeCount	DUO_Trm_Tgd
+166	16211	EdgeCount	DUO_Trm_Th1_Th17
+75	16535	EdgeCount	Eye_Bcell
+152	19905	EdgeCount	Eye_dendritic_cell
+27	6908	EdgeCount	Eye_erythroid_lineage_cell
+100	49988	EdgeCount	Eye_Macrophage
+4	10712	EdgeCount	Eye_masTcell
+163	51776	EdgeCount	Eye_microglial_cell
+41	30275	EdgeCount	Eye_Monocyte
+43	27326	EdgeCount	Eye_PlasmaCell
+14	21589	EdgeCount	Eye_T_CD4
+3	14955	EdgeCount	Eye_T_CD8
+122	18247	EdgeCount	Eye_Tcell
+5	10394	EdgeCount	FAT_leucocyte
+2717	120138	EdgeCount	FAT_Macrophage
+1	3967	EdgeCount	FAT_masTcell
+1311	105608	EdgeCount	FAT_MSC
+440	27901	EdgeCount	FAT_Neutrophil
+467	27496	EdgeCount	FAT_NK
+24	44117	EdgeCount	FAT_PlasmaCell
+1601	36820	EdgeCount	FAT_Tcell
+48	26243	EdgeCount	Heart_Macrophage
+1	1922	EdgeCount	ILE_AlveolarMacrophage
+1	4949	EdgeCount	ILE_ClassicalMonocyte
+2	7174	EdgeCount	ILE_Cycling
+5	11275	EdgeCount	ILE_Cycling T&NK
+2	5851	EdgeCount	ILE_DC1
+8	15593	EdgeCount	ILE_DC2
+20	21689	EdgeCount	ILE_ErythrophagocyticMacrophage
+7	15067	EdgeCount	ILE_GC_B (I)
+4	11169	EdgeCount	ILE_GC_B (II)
+2	7340	EdgeCount	ILE_ILC3
+1	2543	EdgeCount	ILE_Intestinal macrophages
+3	7493	EdgeCount	ILE_MAIT
+2	5795	EdgeCount	ILE_MastCell
+98	13616	EdgeCount	ILE_MemoryBcell
+7	9290	EdgeCount	ILE_MNP/B doublets
+22	10971	EdgeCount	ILE_NaiveBcell
+1	4523	EdgeCount	ILE_NK_CD56bright_CD16-
+1	5719	EdgeCount	ILE_Nonclassical monocytes
+1	2334	EdgeCount	ILE_Plasmablasts
+15	5743	EdgeCount	ILE_PlasmaCell
+50	25569	EdgeCount	ILE_T_CD4_CD8
+5	9190	EdgeCount	ILE_Tem_CD4
+8	12293	EdgeCount	ILE_Temra_CD8
+7	9857	EdgeCount	ILE_Tfh
+3	8549	EdgeCount	ILE_Tgd_CRTAM+
+3	8563	EdgeCount	ILE_Tnaive_CM_CD4
+4	10231	EdgeCount	ILE_Treg
+13	11493	EdgeCount	ILE_Trm_em_CD8
+312	15426	EdgeCount	ILE_Trm_gut_CD8
+119	12955	EdgeCount	ILE_Trm_Tgd
+163	15904	EdgeCount	ILE_Trm_Th1_Th17
+2	6980	EdgeCount	JEJEPI_ABCs
+22	6366	EdgeCount	JEJEPI_AlveolarMacrophage
+26	11600	EdgeCount	JEJEPI_ClassicalMonocyte
+1	7234	EdgeCount	JEJEPI_Cycling
+43	17472	EdgeCount	JEJEPI_Cycling T&NK
+18	15885	EdgeCount	JEJEPI_DC1
+25	8702	EdgeCount	JEJEPI_DC2
+56	27660	EdgeCount	JEJEPI_ErythrophagocyticMacrophage
+2	5787	EdgeCount	JEJEPI_GC_B (I)
+1	5827	EdgeCount	JEJEPI_GC_B (II)
+28	11440	EdgeCount	JEJEPI_ILC3
+1	6369	EdgeCount	JEJEPI_IntermediateMacrophage
+11	8670	EdgeCount	JEJEPI_Intestinal macrophages
+54	15810	EdgeCount	JEJEPI_MAIT
+59	11523	EdgeCount	JEJEPI_MastCell
+3	9684	EdgeCount	JEJEPI_Megakaryocytes
+43	10037	EdgeCount	JEJEPI_MemoryBcell
+5	10080	EdgeCount	JEJEPI_migDC
+95	17103	EdgeCount	JEJEPI_MNP_T_doublet
+6	10369	EdgeCount	JEJEPI_MNP/B doublets
+59	22058	EdgeCount	JEJEPI_NaiveBcell
+27	12634	EdgeCount	JEJEPI_NK_CD16+
+99	17538	EdgeCount	JEJEPI_NK_CD56bright_CD16-
+8	8028	EdgeCount	JEJEPI_Nonclassical monocytes
+2	4711	EdgeCount	JEJEPI_pDC
+8	2832	EdgeCount	JEJEPI_PlasmaCell
+1	3552	EdgeCount	JEJEPI_Progenitor
+985	69705	EdgeCount	JEJEPI_T_CD4_CD8
+59	16776	EdgeCount	JEJEPI_T/B doublets
+86	15905	EdgeCount	JEJEPI_Tem_CD4
+277	46819	EdgeCount	JEJEPI_Temra_CD8
+22	15856	EdgeCount	JEJEPI_Tfh
+6	9147	EdgeCount	JEJEPI_Tgd_CRTAM+
+308	26903	EdgeCount	JEJEPI_Tnaive_CM_CD4
+1	965	EdgeCount	JEJEPI_Tnaive_CM_CD4_activated
+12	12927	EdgeCount	JEJEPI_Tnaive_CM_CD8
+44	16276	EdgeCount	JEJEPI_Treg
+60	17144	EdgeCount	JEJEPI_Trm_em_CD8
+15907	37074	EdgeCount	JEJEPI_Trm_gut_CD8
+5282	31475	EdgeCount	JEJEPI_Trm_Tgd
+3333	29504	EdgeCount	JEJEPI_Trm_Th1_Th17
+3	7778	EdgeCount	JEJLP_ABCs
+13	11459	EdgeCount	JEJLP_AlveolarMacrophage
+59	11818	EdgeCount	JEJLP_ClassicalMonocyte
+25	11481	EdgeCount	JEJLP_Cycling
+19	15862	EdgeCount	JEJLP_Cycling T&NK
+44	4722	EdgeCount	JEJLP_DC1
+32	7107	EdgeCount	JEJLP_DC2
+94	27633	EdgeCount	JEJLP_ErythrophagocyticMacrophage
+86	13683	EdgeCount	JEJLP_ILC3
+1	5656	EdgeCount	JEJLP_IntermediateMacrophage
+476	11184	EdgeCount	JEJLP_Intestinal macrophages
+45	15038	EdgeCount	JEJLP_MAIT
+2123	21820	EdgeCount	JEJLP_MastCell
+67	11917	EdgeCount	JEJLP_MemoryBcell
+8	12483	EdgeCount	JEJLP_migDC
+77	16650	EdgeCount	JEJLP_MNP_T_doublet
+6	8438	EdgeCount	JEJLP_MNP/B doublets
+16	13731	EdgeCount	JEJLP_NaiveBcell
+71	14184	EdgeCount	JEJLP_NK_CD16+
+72	13255	EdgeCount	JEJLP_NK_CD56bright_CD16-
+12	7452	EdgeCount	JEJLP_Nonclassical monocytes
+4	5028	EdgeCount	JEJLP_pDC
+1	5363	EdgeCount	JEJLP_Plasmablasts
+2942	3652	EdgeCount	JEJLP_PlasmaCell
+2	6601	EdgeCount	JEJLP_Progenitor
+579	57798	EdgeCount	JEJLP_T_CD4_CD8
+92	8422	EdgeCount	JEJLP_T/B doublets
+41	14075	EdgeCount	JEJLP_Tem_CD4
+130	27382	EdgeCount	JEJLP_Temra_CD8
+22	11882	EdgeCount	JEJLP_Tfh
+24	11567	EdgeCount	JEJLP_Tgd_CRTAM+
+66	17099	EdgeCount	JEJLP_Tnaive_CM_CD4
+4	8890	EdgeCount	JEJLP_Tnaive_CM_CD4_activated
+3	7763	EdgeCount	JEJLP_Tnaive_CM_CD8
+68	13255	EdgeCount	JEJLP_Treg
+295	19907	EdgeCount	JEJLP_Trm_em_CD8
+7072	28809	EdgeCount	JEJLP_Trm_gut_CD8
+1294	23548	EdgeCount	JEJLP_Trm_Tgd
+7699	30623	EdgeCount	JEJLP_Trm_Th1_Th17
+274	23039	EdgeCount	Kidney_Bcell
+315	46312	EdgeCount	Kidney_Macrophage
+97	22895	EdgeCount	Kidney_NK
+149	19460	EdgeCount	Kidney_T_CD4
+183	32245	EdgeCount	Kidney_T_CD8
+497	24228	EdgeCount	LARITN_Bcell
+38	15983	EdgeCount	LARITN_masTcell
+543	40139	EdgeCount	LARITN_Monocyte
+22	26500	EdgeCount	LARITN_Neutrophil
+330	39097	EdgeCount	LARITN_PlasmaCell
+2872	35356	EdgeCount	LARITN_T_CD4
+2146	30564	EdgeCount	LARITN_T_CD8
+31	11733	EdgeCount	LIV_ABCs
+11	12625	EdgeCount	LIV_AlveolarMacrophage
+1495	23079	EdgeCount	LIV_ClassicalMonocyte
+16	18072	EdgeCount	LIV_Cycling
+142	24541	EdgeCount	LIV_Cycling T&NK
+32	6695	EdgeCount	LIV_DC1
+92	10834	EdgeCount	LIV_DC2
+32	24194	EdgeCount	LIV_dendritic_cell
+106	30871	EdgeCount	LIV_Erythrocyte
+5	12589	EdgeCount	LIV_Erythroid
+433	34638	EdgeCount	LIV_ErythrophagocyticMacrophage
+1	6496	EdgeCount	LIV_GC_B (I)
+9	9888	EdgeCount	LIV_ILC3
+38	13533	EdgeCount	LIV_IntermediateMacrophage
+5	10173	EdgeCount	LIV_Intestinal macrophages
+1307	54432	EdgeCount	LIV_Macrophage
+2239	38775	EdgeCount	LIV_MAIT
+5	11200	EdgeCount	LIV_MastCell
+1	1635	EdgeCount	LIV_Megakaryocytes
+149	20336	EdgeCount	LIV_MemoryBcell
+2	4673	EdgeCount	LIV_migDC
+92	12549	EdgeCount	LIV_MNP_T_doublet
+113	21113	EdgeCount	LIV_MNP/B doublets
+606	40888	EdgeCount	LIV_Monocyte
+106	20528	EdgeCount	LIV_NaiveBcell
+4	10422	EdgeCount	LIV_Neutrophil
+231	41324	EdgeCount	LIV_NK
+1882	39030	EdgeCount	LIV_NK_CD16+
+1705	33376	EdgeCount	LIV_NK_CD56bright_CD16-
+458	14849	EdgeCount	LIV_Nonclassical monocytes
+25	13378	EdgeCount	LIV_pDC
+37	14986	EdgeCount	LIV_Plasmablasts
+202	17375	EdgeCount	LIV_PlasmaCell
+2	7838	EdgeCount	LIV_Pre-B
+9	12785	EdgeCount	LIV_Progenitor
+331	61356	EdgeCount	LIV_T_CD4_CD8
+28	10205	EdgeCount	LIV_T/B doublets
+139	24348	EdgeCount	LIV_Tcell
+259	14625	EdgeCount	LIV_Tem_CD4
+750	25969	EdgeCount	LIV_Temra_CD8
+8	13925	EdgeCount	LIV_Tfh
+1036	31375	EdgeCount	LIV_Tgd_CRTAM+
+55	11434	EdgeCount	LIV_Tnaive_CM_CD4
+7	12249	EdgeCount	LIV_Tnaive_CM_CD4_activated
+24	10377	EdgeCount	LIV_Tnaive_CM_CD8
+49	14726	EdgeCount	LIV_Treg
+806	28464	EdgeCount	LIV_Trm_em_CD8
+115	17128	EdgeCount	LIV_Trm_gut_CD8
+7	13911	EdgeCount	LIV_Trm_Tgd
+587	23150	EdgeCount	LIV_Trm_Th1_Th17
+307	13195	EdgeCount	LLN_ABCs
+97	10174	EdgeCount	LLN_AlveolarMacrophage
+115	9384	EdgeCount	LLN_ClassicalMonocyte
+22	12000	EdgeCount	LLN_Cycling
+222	12496	EdgeCount	LLN_Cycling T&NK
+30	8228	EdgeCount	LLN_DC1
+80	6813	EdgeCount	LLN_DC2
+1	9184	EdgeCount	LLN_Erythroid
+75	19314	EdgeCount	LLN_ErythrophagocyticMacrophage
+153	24577	EdgeCount	LLN_GC_B (I)
+91	17410	EdgeCount	LLN_GC_B (II)
+267	17466	EdgeCount	LLN_ILC3
+12	12040	EdgeCount	LLN_IntermediateMacrophage
+15	9502	EdgeCount	LLN_Intestinal macrophages
+169	14294	EdgeCount	LLN_MAIT
+74	16968	EdgeCount	LLN_MastCell
+9818	26077	EdgeCount	LLN_MemoryBcell
+95	10285	EdgeCount	LLN_migDC
+172	15197	EdgeCount	LLN_MNP_T_doublet
+151	14207	EdgeCount	LLN_MNP/B doublets
+4503	42438	EdgeCount	LLN_NaiveBcell
+71	11446	EdgeCount	LLN_NK_CD16+
+740	20121	EdgeCount	LLN_NK_CD56bright_CD16-
+12	9471	EdgeCount	LLN_Nonclassical monocytes
+92	9274	EdgeCount	LLN_pDC
+531	9615	EdgeCount	LLN_Plasmablasts
+508	3544	EdgeCount	LLN_PlasmaCell
+1	5319	EdgeCount	LLN_Pro-B
+8	7489	EdgeCount	LLN_Progenitor
+1412	53729	EdgeCount	LLN_T_CD4_CD8
+365	15679	EdgeCount	LLN_T/B doublets
+6696	12660	EdgeCount	LLN_Tem_CD4
+131	21935	EdgeCount	LLN_Temra_CD8
+7677	24408	EdgeCount	LLN_Tfh
+140	15316	EdgeCount	LLN_Tgd_CRTAM+
+12551	23869	EdgeCount	LLN_Tnaive_CM_CD4
+3094	28076	EdgeCount	LLN_Tnaive_CM_CD4_activated
+3653	17864	EdgeCount	LLN_Tnaive_CM_CD8
+5806	28660	EdgeCount	LLN_Treg
+1655	26802	EdgeCount	LLN_Trm_em_CD8
+171	16799	EdgeCount	LLN_Trm_gut_CD8
+3	9081	EdgeCount	LLN_Trm_Tgd
+861	16745	EdgeCount	LLN_Trm_Th1_Th17
+14808	51872	EdgeCount	LN_Bcell
+243	39272	EdgeCount	LN_ClassicalMonocyte
+201	78050	EdgeCount	LN_dendritic_cell
+22	19044	EdgeCount	LN_Erythrocyte
+34	41937	EdgeCount	LN_hematopoietic_stem_cell
+1906	29401	EdgeCount	LN_ILC
+299	51967	EdgeCount	LN_intermediate_Monocyte
+1145	87420	EdgeCount	LN_Macrophage
+130	20388	EdgeCount	LN_masTcell
+2919	36965	EdgeCount	LN_MemoryBcell
+1324	25042	EdgeCount	LN_NaiveBcell
+107	14578	EdgeCount	LN_Neutrophil
+577	26562	EdgeCount	LN_NK
+3809	35254	EdgeCount	LN_NKT
+28	22892	EdgeCount	LN_non-ClassicalMonocyte
+2593	134410	EdgeCount	LN_PlasmaCell
+876	61335	EdgeCount	LN_regulatory_Tcell
+6791	39079	EdgeCount	LN_T_CD4
+5806	32030	EdgeCount	LN_T_CD8
+3755	27373	EdgeCount	LN_Tcell
+1241	42821	EdgeCount	LN_Tmemory_CD4_alpha-beta
+750	25841	EdgeCount	LN_Tmemory_CD8_alpha-beta
+1266	27065	EdgeCount	LN_Tnaive_thymus-derived_CD4
+10	7201	EdgeCount	LNG_ABCs
+16976	3914	EdgeCount	LNG_AlveolarMacrophage
+677	38337	EdgeCount	LNG_basophil
+82	18789	EdgeCount	LNG_Bcell
+4770	18450	EdgeCount	LNG_ClassicalMonocyte
+200	11924	EdgeCount	LNG_Cycling
+216	19842	EdgeCount	LNG_Cycling T&NK
+79	5298	EdgeCount	LNG_DC1
+329	6343	EdgeCount	LNG_DC2
+295	43027	EdgeCount	LNG_dendritic_cell
+40	17069	EdgeCount	LNG_ErythrophagocyticMacrophage
+4	15447	EdgeCount	LNG_GC_B (I)
+40	9994	EdgeCount	LNG_ILC3
+252	27015	EdgeCount	LNG_intermediate_Monocyte
+2139	16936	EdgeCount	LNG_IntermediateMacrophage
+42	10741	EdgeCount	LNG_Intestinal macrophages
+12034	99632	EdgeCount	LNG_Macrophage
+124	12817	EdgeCount	LNG_MAIT
+823	15382	EdgeCount	LNG_MastCell
+133	10592	EdgeCount	LNG_MemoryBcell
+84	8433	EdgeCount	LNG_migDC
+1313	8272	EdgeCount	LNG_MNP_T_doublet
+10	9837	EdgeCount	LNG_MNP/B doublets
+79	15064	EdgeCount	LNG_NaiveBcell
+138	19048	EdgeCount	LNG_Neutrophil
+126	19878	EdgeCount	LNG_NK
+2771	28595	EdgeCount	LNG_NK_CD16+
+462	18053	EdgeCount	LNG_NK_CD56bright_CD16-
+999	39581	EdgeCount	LNG_non-ClassicalMonocyte
+752	8307	EdgeCount	LNG_Nonclassical monocytes
+63	6942	EdgeCount	LNG_pDC
+36	10648	EdgeCount	LNG_Plasmablasts
+158	29519	EdgeCount	LNG_PlasmaCell
+18	5855	EdgeCount	LNG_Progenitor
+656	19222	EdgeCount	LNG_T_CD4
+248	38208	EdgeCount	LNG_T_CD4_CD8
+603	28274	EdgeCount	LNG_T_CD8
+24	14215	EdgeCount	LNG_T/B doublets
+947	10374	EdgeCount	LNG_Tem_CD4
+945	21771	EdgeCount	LNG_Temra_CD8
+79	14239	EdgeCount	LNG_Tfh
+148	14917	EdgeCount	LNG_Tgd_CRTAM+
+176	10209	EdgeCount	LNG_Tnaive_CM_CD4
+9	10837	EdgeCount	LNG_Tnaive_CM_CD4_activated
+39	7778	EdgeCount	LNG_Tnaive_CM_CD8
+256	11870	EdgeCount	LNG_Treg
+417	19199	EdgeCount	LNG_Trm_em_CD8
+82	15779	EdgeCount	LNG_Trm_gut_CD8
+17	10366	EdgeCount	LNG_Trm_Tgd
+1876	25235	EdgeCount	LNG_Trm_Th1_Th17
+32	12608	EdgeCount	MG_Bcell
+206	37163	EdgeCount	MG_Macrophage
+14	12585	EdgeCount	MG_masTcell
+10	9784	EdgeCount	MG_NK
+180	44482	EdgeCount	MG_PlasmaCell
+2147	25861	EdgeCount	MG_Tcell
+49	13565	EdgeCount	MLN_ABCs
+17	19045	EdgeCount	MLN_AlveolarMacrophage
+28	14819	EdgeCount	MLN_ClassicalMonocyte
+3	9143	EdgeCount	MLN_Cycling
+38	16531	EdgeCount	MLN_Cycling T&NK
+29	17848	EdgeCount	MLN_DC1
+55	17284	EdgeCount	MLN_DC2
+1	5220	EdgeCount	MLN_Erythroid
+213	41045	EdgeCount	MLN_ErythrophagocyticMacrophage
+66	29301	EdgeCount	MLN_GC_B (I)
+37	14240	EdgeCount	MLN_GC_B (II)
+485	33186	EdgeCount	MLN_ILC3
+2	9210	EdgeCount	MLN_IntermediateMacrophage
+6	12591	EdgeCount	MLN_Intestinal macrophages
+136	16094	EdgeCount	MLN_MAIT
+9	14908	EdgeCount	MLN_MastCell
+3641	34515	EdgeCount	MLN_MemoryBcell
+48	17515	EdgeCount	MLN_migDC
+47	13264	EdgeCount	MLN_MNP_T_doublet
+61	15483	EdgeCount	MLN_MNP/B doublets
+1555	37971	EdgeCount	MLN_NaiveBcell
+364	24691	EdgeCount	MLN_NK_CD16+
+627	24643	EdgeCount	MLN_NK_CD56bright_CD16-
+8	9926	EdgeCount	MLN_Nonclassical monocytes
+11	6446	EdgeCount	MLN_pDC
+12	10426	EdgeCount	MLN_Plasmablasts
+37	5935	EdgeCount	MLN_PlasmaCell
+10	11676	EdgeCount	MLN_Progenitor
+537	59708	EdgeCount	MLN_T_CD4_CD8
+104	9629	EdgeCount	MLN_T/B doublets
+912	18637	EdgeCount	MLN_Tem_CD4
+267	21811	EdgeCount	MLN_Temra_CD8
+2672	37241	EdgeCount	MLN_Tfh
+149	18989	EdgeCount	MLN_Tgd_CRTAM+
+4978	32160	EdgeCount	MLN_Tnaive_CM_CD4
+143	13880	EdgeCount	MLN_Tnaive_CM_CD4_activated
+1187	23452	EdgeCount	MLN_Tnaive_CM_CD8
+2965	39586	EdgeCount	MLN_Treg
+759	28433	EdgeCount	MLN_Trm_em_CD8
+431	27587	EdgeCount	MLN_Trm_gut_CD8
+1	4500	EdgeCount	MLN_Trm_Tgd
+497	26148	EdgeCount	MLN_Trm_Th1_Th17
+18	5759	EdgeCount	MSC_Erythrocyte
+1481	65022	EdgeCount	MSC_Macrophage
+17	13041	EdgeCount	MSC_masTcell
+44	12797	EdgeCount	MSC_NKT
+79	19733	EdgeCount	MSC_T_CD4
+48	15947	EdgeCount	MSC_T_CD8
+354	23759	EdgeCount	MSC_Tcell
+4	7801	EdgeCount	OME_ABCs
+24	8410	EdgeCount	OME_AlveolarMacrophage
+28	10650	EdgeCount	OME_ClassicalMonocyte
+9	15605	EdgeCount	OME_Cycling T&NK
+2	3810	EdgeCount	OME_DC1
+15	21515	EdgeCount	OME_ErythrophagocyticMacrophage
+1	4833	EdgeCount	OME_ILC3
+2	7355	EdgeCount	OME_IntermediateMacrophage
+10	13024	EdgeCount	OME_Intestinal macrophages
+12	8761	EdgeCount	OME_MAIT
+3	7925	EdgeCount	OME_MastCell
+86	11207	EdgeCount	OME_MemoryBcell
+1	5573	EdgeCount	OME_migDC
+2	6645	EdgeCount	OME_MNP/B doublets
+14	10474	EdgeCount	OME_NaiveBcell
+26	12565	EdgeCount	OME_NK_CD16+
+7	9946	EdgeCount	OME_NK_CD56bright_CD16-
+21	8092	EdgeCount	OME_Nonclassical monocytes
+24	26462	EdgeCount	OME_T_CD4_CD8
+37	8791	EdgeCount	OME_Tem_CD4
+35	9478	EdgeCount	OME_Temra_CD8
+26	11478	EdgeCount	OME_Tfh
+12	9697	EdgeCount	OME_Tgd_CRTAM+
+6	7672	EdgeCount	OME_Tnaive_CM_CD4
+5	9377	EdgeCount	OME_Tnaive_CM_CD8
+14	11861	EdgeCount	OME_Treg
+71	14033	EdgeCount	OME_Trm_em_CD8
+4	9090	EdgeCount	OME_Trm_gut_CD8
+1	5080	EdgeCount	OME_Trm_Tgd
+95	12433	EdgeCount	OME_Trm_Th1_Th17
+55	25764	EdgeCount	PNC_Bcell
+3	11346	EdgeCount	PNC_masTcell
+1804	90411	EdgeCount	PNC_Myeloid
+47	16476	EdgeCount	PNC_NK
+63	43840	EdgeCount	PNC_PlasmaCell
+560	27947	EdgeCount	PNC_Tcell
+86	13687	EdgeCount	Prostate_erythroid_progenitor
+317	46201	EdgeCount	Prostate_Macrophage
+9	12843	EdgeCount	Prostate_masTcell
+365	77096	EdgeCount	Prostate_Myeloid
+16	11590	EdgeCount	Prostate_Neutrophil
+410	18212	EdgeCount	Prostate_NKT
+962	20430	EdgeCount	Prostate_T_CD8
+586	24286	EdgeCount	Prostate_Tcell
+1	7332	EdgeCount	SCL_ABCs
+1	5402	EdgeCount	SCL_AlveolarMacrophage
+5	10849	EdgeCount	SCL_ClassicalMonocyte
+1	4760	EdgeCount	SCL_DC2
+2	8306	EdgeCount	SCL_ErythrophagocyticMacrophage
+2	6753	EdgeCount	SCL_GC_B (I)
+8	9085	EdgeCount	SCL_GC_B (II)
+1	6077	EdgeCount	SCL_ILC3
+2	8228	EdgeCount	SCL_Intestinal macrophages
+16	10008	EdgeCount	SCL_MemoryBcell
+17	11839	EdgeCount	SCL_NaiveBcell
+1	6503	EdgeCount	SCL_NK_CD16+
+5	4816	EdgeCount	SCL_PlasmaCell
+5	9487	EdgeCount	SCL_T_CD4_CD8
+6	10586	EdgeCount	SCL_Temra_CD8
+4	8979	EdgeCount	SCL_Tfh
+2	8127	EdgeCount	SCL_Tgd_CRTAM+
+4	9467	EdgeCount	SCL_Treg
+3	8471	EdgeCount	SCL_Trm_em_CD8
+25	10678	EdgeCount	SCL_Trm_gut_CD8
+17	10910	EdgeCount	SCL_Trm_Tgd
+5	9602	EdgeCount	SCL_Trm_Th1_Th17
+81	113415	EdgeCount	SG_Bcell
+1761	71074	EdgeCount	SG_Macrophage
+2816	58817	EdgeCount	SG_MemoryBcell
+426	44500	EdgeCount	SG_Monocyte
+1120	35855	EdgeCount	SG_NaiveBcell
+115	21623	EdgeCount	SG_Neutrophil
+317	30768	EdgeCount	SG_NK
+345	47954	EdgeCount	SG_PlasmaCell
+1101	36695	EdgeCount	SG_T_CD4
+1887	24970	EdgeCount	SG_T_CD8
+150	22516	EdgeCount	SG_Tcell
+142	34617	EdgeCount	Skin_dendritic_cell
+31	33055	EdgeCount	Skin_langerhans_cell
+656	47488	EdgeCount	Skin_Macrophage
+456	21515	EdgeCount	Skin_masTcell
+4	10381	EdgeCount	Skin_MemoryBcell
+82	14955	EdgeCount	Skin_naive_thymus-derived_T_CD8
+7	10890	EdgeCount	Skin_NaiveBcell
+237	21574	EdgeCount	Skin_NK
+344	23739	EdgeCount	Skin_NKT
+22	38027	EdgeCount	Skin_PlasmaCell
+124	22703	EdgeCount	Skin_regulatory_Tcell
+56	16248	EdgeCount	Skin_T_CD4
+127	19095	EdgeCount	Skin_T_CD8
+488	22743	EdgeCount	Skin_Tcell
+331	23526	EdgeCount	Skin_Tmemory_CD4_alpha-beta
+818	28010	EdgeCount	Skin_Tmemory_CD8_alpha-beta
+70	19915	EdgeCount	Skin_Tnaive_thymus-derived_CD4
+10	6858	EdgeCount	SKM_ABCs
+7	10613	EdgeCount	SKM_AlveolarMacrophage
+105	15070	EdgeCount	SKM_ClassicalMonocyte
+38	16325	EdgeCount	SKM_Cycling T&NK
+2	9140	EdgeCount	SKM_DC2
+4	11342	EdgeCount	SKM_ErythrophagocyticMacrophage
+5	10876	EdgeCount	SKM_IntermediateMacrophage
+4	9212	EdgeCount	SKM_MAIT
+7	9792	EdgeCount	SKM_Megakaryocytes
+42	11067	EdgeCount	SKM_MemoryBcell
+3	7478	EdgeCount	SKM_MNP_T_doublet
+7	7473	EdgeCount	SKM_NaiveBcell
+120	15711	EdgeCount	SKM_NK_CD16+
+14	12328	EdgeCount	SKM_NK_CD56bright_CD16-
+71	11298	EdgeCount	SKM_Nonclassical monocytes
+2	6996	EdgeCount	SKM_pDC
+3	12622	EdgeCount	SKM_Plasmablasts
+2	8206	EdgeCount	SKM_PlasmaCell
+1	7324	EdgeCount	SKM_Progenitor
+8	16666	EdgeCount	SKM_T_CD4_CD8
+1	7807	EdgeCount	SKM_T/B doublets
+53	9385	EdgeCount	SKM_Tem_CD4
+211	17642	EdgeCount	SKM_Temra_CD8
+2	9723	EdgeCount	SKM_Tfh
+20	10529	EdgeCount	SKM_Tgd_CRTAM+
+30	9751	EdgeCount	SKM_Tnaive_CM_CD4
+5	9314	EdgeCount	SKM_Tnaive_CM_CD8
+7	8758	EdgeCount	SKM_Treg
+40	12572	EdgeCount	SKM_Trm_em_CD8
+1	8534	EdgeCount	SKM_Trm_gut_CD8
+10	10717	EdgeCount	SKM_Trm_Th1_Th17
+518	31865	EdgeCount	SMITN_Bcell
+65	15693	EdgeCount	SMITN_masTcell
+61	26389	EdgeCount	SMITN_Monocyte
+64	33734	EdgeCount	SMITN_Neutrophil
+303	40850	EdgeCount	SMITN_PlasmaCell
+5257	36351	EdgeCount	SMITN_T_CD4
+2323	36258	EdgeCount	SMITN_T_CD8
+693	13006	EdgeCount	SPL_ABCs
+38	15664	EdgeCount	SPL_AlveolarMacrophage
+9828	39923	EdgeCount	SPL_ClassicalMonocyte
+37	15342	EdgeCount	SPL_Cycling
+375	21052	EdgeCount	SPL_Cycling T&NK
+53	8317	EdgeCount	SPL_DC1
+250	11394	EdgeCount	SPL_DC2
+134	53417	EdgeCount	SPL_dendritic_cell
+164	45744	EdgeCount	SPL_Erythrocyte
+24	21461	EdgeCount	SPL_Erythroid
+1071	38635	EdgeCount	SPL_ErythrophagocyticMacrophage
+100	22523	EdgeCount	SPL_GC_B (I)
+38	12343	EdgeCount	SPL_GC_B (II)
+73	84540	EdgeCount	SPL_hematopoietic_stem_cell
+114	24077	EdgeCount	SPL_ILC
+327	18299	EdgeCount	SPL_ILC3
+125	39471	EdgeCount	SPL_intermediate_Monocyte
+4	10185	EdgeCount	SPL_IntermediateMacrophage
+21	12379	EdgeCount	SPL_Intestinal macrophages
+1312	86194	EdgeCount	SPL_Macrophage
+1519	21175	EdgeCount	SPL_MAIT
+61	12811	EdgeCount	SPL_MastCell
+35	16153	EdgeCount	SPL_Megakaryocytes
+19878	41172	EdgeCount	SPL_MemoryBcell
+19	10318	EdgeCount	SPL_migDC
+230	13654	EdgeCount	SPL_MNP_T_doublet
+372	14350	EdgeCount	SPL_MNP/B doublets
+573	30839	EdgeCount	SPL_naive_thymus-derived_T_CD8
+7636	45758	EdgeCount	SPL_NaiveBcell
+4408	23936	EdgeCount	SPL_Neutrophil
+1950	35088	EdgeCount	SPL_NK
+4319	38534	EdgeCount	SPL_NK_CD16+
+3891	26379	EdgeCount	SPL_NK_CD56bright_CD16-
+1345	35257	EdgeCount	SPL_NKT
+254	15087	EdgeCount	SPL_Nonclassical monocytes
+97	11829	EdgeCount	SPL_pDC
+875	17918	EdgeCount	SPL_Plasmablasts
+4978	124450	EdgeCount	SPL_PlasmaCell
+18	19288	EdgeCount	SPL_platelet
+1	11313	EdgeCount	SPL_Pre-B
+1	9719	EdgeCount	SPL_Pro-B
+95	16851	EdgeCount	SPL_Progenitor
+237	51512	EdgeCount	SPL_regulatory_Tcell
+703	70248	EdgeCount	SPL_T_CD4_CD8
+41	50029	EdgeCount	SPL_T_CD8
+552	14481	EdgeCount	SPL_T/B doublets
+3837	17223	EdgeCount	SPL_Tem_CD4
+3127	27542	EdgeCount	SPL_Temra_CD8
+4371	28763	EdgeCount	SPL_Tfh
+2068	31009	EdgeCount	SPL_Tgd_CRTAM+
+1662	32529	EdgeCount	SPL_Tmemory_CD4_alpha-beta
+3963	35486	EdgeCount	SPL_Tmemory_CD8_alpha-beta
+4645	21456	EdgeCount	SPL_Tnaive_CM_CD4
+306	16945	EdgeCount	SPL_Tnaive_CM_CD4_activated
+982	17446	EdgeCount	SPL_Tnaive_CM_CD8
+1160	37290	EdgeCount	SPL_Tnaive_thymus-derived_CD4
+1643	24162	EdgeCount	SPL_Treg
+4984	35949	EdgeCount	SPL_Trm_em_CD8
+1023	23609	EdgeCount	SPL_Trm_gut_CD8
+36	14944	EdgeCount	SPL_Trm_Tgd
+571	19274	EdgeCount	SPL_Trm_Th1_Th17
+1	14861	EdgeCount	TCL_ABCs
+1	13474	EdgeCount	TCL_AlveolarMacrophage
+1	13340	EdgeCount	TCL_ClassicalMonocyte
+1	13238	EdgeCount	TCL_Cycling T&NK
+5	18779	EdgeCount	TCL_DC2
+3	17720	EdgeCount	TCL_ErythrophagocyticMacrophage
+16	23957	EdgeCount	TCL_GC_B (I)
+19	17595	EdgeCount	TCL_GC_B (II)
+1	14993	EdgeCount	TCL_ILC3
+2	13623	EdgeCount	TCL_Intestinal macrophages
+3	17084	EdgeCount	TCL_MastCell
+12	15172	EdgeCount	TCL_MemoryBcell
+10	15032	EdgeCount	TCL_NaiveBcell
+1	16289	EdgeCount	TCL_NK_CD16+
+3	14662	EdgeCount	TCL_NK_CD56bright_CD16-
+60	15937	EdgeCount	TCL_PlasmaCell
+14	14018	EdgeCount	TCL_T_CD4_CD8
+3	18015	EdgeCount	TCL_Tem_CD4
+2	16002	EdgeCount	TCL_Temra_CD8
+10	16380	EdgeCount	TCL_Tfh
+15	15274	EdgeCount	TCL_Treg
+6	17441	EdgeCount	TCL_Trm_em_CD8
+21	16420	EdgeCount	TCL_Trm_gut_CD8
+41	17139	EdgeCount	TCL_Trm_Tgd
+11	14224	EdgeCount	TCL_Trm_Th1_Th17
+1919	40903	EdgeCount	THY_Bcell
+1	16081	EdgeCount	THY_ClassicalMonocyte
+2	18878	EdgeCount	THY_Cycling T&NK
+38	45488	EdgeCount	THY_dendritic_cell
+985	36836	EdgeCount	THY_dn1_thymic_pro-Tcell
+32	72358	EdgeCount	THY_dn4_thymocyte
+45	23635	EdgeCount	THY_Erythrocyte
+1	17404	EdgeCount	THY_GC_B (I)
+2594	48205	EdgeCount	THY_ILC
+15	19347	EdgeCount	THY_ILC3
+42	22026	EdgeCount	THY_immature_natural_killer_cell
+443	82691	EdgeCount	THY_Macrophage
+6	16942	EdgeCount	THY_MAIT
+10	17445	EdgeCount	THY_masTcell
+1882	48228	EdgeCount	THY_MemoryBcell
+410	48742	EdgeCount	THY_Monocyte
+761	42276	EdgeCount	THY_naive_regulatory_Tcell
+876	37293	EdgeCount	THY_NaiveBcell
+185	29548	EdgeCount	THY_NK
+2	19584	EdgeCount	THY_NK_CD16+
+89	24053	EdgeCount	THY_NKT
+1529	127297	EdgeCount	THY_PlasmaCell
+1	21033	EdgeCount	THY_Progenitor
+7604	60194	EdgeCount	THY_T_CD4
+60	33428	EdgeCount	THY_T_CD4_CD8
+850	38342	EdgeCount	THY_T_CD8
+398	36293	EdgeCount	THY_t_follicular_helper_cell
+1	20904	EdgeCount	THY_T/B doublets
+14	19507	EdgeCount	THY_Tem_CD4
+25	21531	EdgeCount	THY_Temra_CD8
+2	20647	EdgeCount	THY_Tfh
+3	21751	EdgeCount	THY_Tgd_CRTAM+
+553	32164	EdgeCount	THY_thymocyte
+1788	49394	EdgeCount	THY_Thymocyte_DN3
+23	23163	EdgeCount	THY_Tnaive_CM_CD4
+4	26133	EdgeCount	THY_Tnaive_CM_CD4_activated
+78	27742	EdgeCount	THY_Tnaive_CM_CD8
+28	23147	EdgeCount	THY_Treg
+25	23315	EdgeCount	THY_Trm_em_CD8
+4	23033	EdgeCount	THY_Trm_Th1_Th17
+1614	69591	EdgeCount	Tongue_immune_cell
+459	44672	EdgeCount	Trachea_Bcell
+6	31326	EdgeCount	Trachea_double-positive_alpha-beta_thymocyte
+531	84227	EdgeCount	Trachea_Macrophage
+61	35742	EdgeCount	Trachea_masTcell
+727	45533	EdgeCount	Trachea_Neutrophil
+115	60873	EdgeCount	Trachea_PlasmaCell
+65	57626	EdgeCount	Trachea_T_CD4
+464	43217	EdgeCount	Trachea_T_CD8
+130	52366	EdgeCount	Trachea_Tcell
+10	33934	EdgeCount	Uterus_Bcell
+17	54699	EdgeCount	Uterus_immune_cell
+326	74721	EdgeCount	Uterus_Macrophage
+49	37713	EdgeCount	Uterus_NK
+513	51762	EdgeCount	Uterus_Tcell
+20	36319	EdgeCount	VAS_Bcell
+64	48860	EdgeCount	VAS_Erythrocyte
+3054	133876	EdgeCount	VAS_Macrophage
+93	47007	EdgeCount	VAS_masTcell
+102	43160	EdgeCount	VAS_NK
+33	55698	EdgeCount	VAS_PlasmaCell
+457	60583	EdgeCount	VAS_Tcell
